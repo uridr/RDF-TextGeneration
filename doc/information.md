@@ -6,6 +6,8 @@
 * [Triple-to-Text: Converting RDF Triples into High-Quality Natural Languages via Optimizing an Inverse KL Divergence](https://arxiv.org/pdf/1906.01965.pdf) 
 * [Neural data-to-text generation:
   A comparison between pipeline and end-to-end architectures](https://arxiv.org/pdf/1908.09022.pdf) 
+* [WebNLG Challenge by: Bayu Distiawan T](https://webnlg-challenge.loria.fr/files/melbourne_report.pdf)
+* [Tilburg University models for the WebNLG challenge](https://webnlg-challenge.loria.fr/files/tilburg_report.pdf)   
 
 ### From Graph to Text
 
@@ -19,6 +21,7 @@
 ## Baseline
 
 + [WebNLGChallenge2017](https://webnlg-challenge.loria.fr/challenge_2017/#training-a-model-and-generating-verbalisations)
+  + [Baseline system](https://gitlab.com/shimorina/webnlg-baseline)
 
 
 
