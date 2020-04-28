@@ -190,7 +190,7 @@ def input_files(path, filepath=None, relex=False):
     :param relex: boolean; do relexicalisation or not
     :return:
     """
-    parts = ['train', 'dev']
+    parts = ['train', 'dev','test']
     options = ['all-delex', 'all-notdelex']  # generate files with/without delexicalisation
     for part in parts:
         for option in options:
