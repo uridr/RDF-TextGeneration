@@ -1,9 +1,11 @@
-fairseq-preprocess --trainpref ../data/datasets/preprocessed/train/train-webnlg-all-delex.triple --validpref ../data/datasets/preprocessed/dev/dev-webnlg-all-delex.triple --testpref  ../data/datasets/preprocessed/test/test-webnlg-all-delex.triple --cpu --tokenizer moses --bpe bert
+TEXT=../data/datasets/preprocessed
 
-mv data-bin/train* ../data/datasets/preprocessed/train/
-mv data-bin/valid* ../data/datasets/preprocessed/dev/
-mv data-bin/test* ../data/datasets/preprocessed/test/
+fairseq-preprocess --trainpref $TEXT/train/train-webnlg-all-delex.triple --validpref $TEXT/dev/dev-webnlg-all-delex.triple --testpref  $TEXT/test/test-webnlg-all-delex.triple --cpu --tokenizer moses --bpe bert
 
-mv data-bin/dict.txt ../data/datasets/preprocessed/
+mv data-bin/train* $TEXT/train/
+mv data-bin/valid* $TEXT/dev/
+mv data-bin/test* $TEXT/test/
+
+mv data-bin/dict.txt $TEXT
 
 rmdir data-bin
