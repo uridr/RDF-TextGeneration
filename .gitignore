@@ -2,3 +2,5 @@
 *.pyc
 *.pycache
 *.ipynb_checkpoints
+mosesdecoder/
+subword-nmt/
