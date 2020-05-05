@@ -12,8 +12,8 @@ TOKENIZER=$MOSESDECODER/scripts/tokenizer/tokenizer.perl
 
 # tokenize train valid and test:
 for file in $train $valid $test; do
-   perl $TOKENIZER -l en < $file.triple > $file.tok.triple
-   perl $TOKENIZER -l en < $file.lex  > $file.tok.lex
+   perl $TOKENIZER -l en < $file.$src > $file.tok.$src
+   perl $TOKENIZER -l en < $file.$tgt  > $file.tok.$tgt
 done
 
 # set BPE variable to subword-nmt folder
@@ -22,14 +22,16 @@ BPE_TOKENS=10000
 BPE_CODE=code
 
 # merge files to learn BPE
-cat train.tok.triple train.tok.lex > train.triple-lex
+cat $train.tok.$src $train.tok.$tgt > $train.$src-$tgt
 
 echo "learn_bpe.py on train.triple-lex..."
-python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < train.triple-lex > $BPE_CODE
+python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
 
 for L in $src $tgt; do
     for f in $train.$L $valid.$L $test.$L; do
         echo "apply_bpe.py to ${f}..."
-        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $tmp/$f > $prep/$f
+        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe
     done
 done
+
+mv $BPE_CODE $TEXT/$BPE_CODE
