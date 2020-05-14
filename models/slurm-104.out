@@ -1,0 +1,68 @@
+mkdir: cannot create directory ‘checkpoints/transformer’: File exists
+Namespace(activation_dropout=0.0, activation_fn='relu', adam_betas='(0.9, 0.999)', adam_eps=1e-08, adaptive_input=False, adaptive_softmax_cutoff=None, adaptive_softmax_dropout=0, arch='transformer', attention_dropout=0.0, best_checkpoint_metric='loss', bpe=None, bucket_cap_mb=25, clip_norm=0.1, cpu=False, criterion='label_smoothed_cross_entropy', cross_self_attention=False, curriculum=0, data='../format/BPE_1_000', dataset_impl=None, ddp_backend='c10d', decoder_attention_heads=8, decoder_embed_dim=512, decoder_embed_path=None, decoder_ffn_embed_dim=2048, decoder_input_dim=512, decoder_layerdrop=0, decoder_layers=1, decoder_layers_to_keep=None, decoder_learned_pos=False, decoder_normalize_before=False, decoder_output_dim=512, device_id=0, disable_validation=False, distributed_backend='nccl', distributed_init_method=None, distributed_no_spawn=False, distributed_port=-1, distributed_rank=0, distributed_world_size=1, dropout=0.2, empty_cache_freq=0, encoder_attention_heads=8, encoder_embed_dim=512, encoder_embed_path=None, encoder_ffn_embed_dim=2048, encoder_layerdrop=0, encoder_layers=1, encoder_layers_to_keep=None, encoder_learned_pos=False, encoder_normalize_before=False, fast_stat_sync=False, find_unused_parameters=False, fix_batches_to_gpus=False, fixed_validation_seed=None, force_anneal=None, fp16=False, fp16_init_scale=128, fp16_scale_tolerance=0.0, fp16_scale_window=None, keep_interval_updates=-1, keep_last_epochs=-1, label_smoothing=0.0, layer_wise_attention=False, layernorm_embedding=False, lazy_load=False, left_pad_source='True', left_pad_target='False', load_alignments=False, log_format=None, log_interval=1000, lr=[0.002], lr_scheduler='fixed', lr_shrink=0.1, max_epoch=3, max_sentences=10, max_sentences_valid=10, max_source_positions=1024, max_target_positions=1024, max_tokens=None, max_tokens_valid=None, max_update=0, maximize_best_checkpoint_metric=False, memory_efficient_fp16=False, min_loss_scale=0.0001, min_lr=-1, no_cross_attention=False, no_epoch_checkpoints=False, no_last_checkpoints=False, no_progress_bar=False, no_save=False, no_save_optimizer_state=False, no_scale_embedding=False, no_token_positional_embeddings=False, num_workers=1, optimizer='adam', optimizer_overrides='{}', raw_text=False, required_batch_size_multiple=8, reset_dataloader=False, reset_lr_scheduler=False, reset_meters=False, reset_optimizer=False, restore_file='checkpoint_last.pt', save_dir='checkpoints/transformer', save_interval=1, save_interval_updates=0, seed=1, sentence_avg=False, share_all_embeddings=True, share_decoder_input_output_embed=False, skip_invalid_size_inputs_valid_test=False, source_lang='triple', target_lang='lex', task='translation', tensorboard_logdir='', threshold_loss_scale=None, tokenizer=None, train_subset='train', truncate_source=False, update_freq=[1], upsample_primary=1, use_bmuf=False, user_dir=None, valid_subset='valid', validate_interval=1, warmup_updates=0, weight_decay=0.0)
+| [triple] dictionary: 1000 types
+| [lex] dictionary: 1000 types
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.triple
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.lex
+| ../format/BPE_1_000 valid triple-lex 4313 examples
+TransformerModel(
+  (encoder): TransformerEncoder(
+    (embed_tokens): Embedding(1000, 512, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0): TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=512, out_features=2048, bias=True)
+        (fc2): Linear(in_features=2048, out_features=512, bias=True)
+        (final_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+  (decoder): TransformerDecoder(
+    (embed_tokens): Embedding(1000, 512, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0): TransformerDecoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=512, out_features=2048, bias=True)
+        (fc2): Linear(in_features=2048, out_features=512, bias=True)
+        (final_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+)
+| model transformer, criterion LabelSmoothedCrossEntropyCriterion
+| num. model params: 7868416 (num. trained: 7868416)
+| training on 1 GPUs
+| max tokens per GPU = None and max sentences per GPU = 10
+| NOTICE: your device may support faster training with --fp16
+| loaded checkpoint checkpoints/transformer/checkpoint_last.pt (epoch 3 @ 6438 updates)
+| loading train data for epoch 3
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.triple
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.lex
+| ../format/BPE_1_000 train triple-lex 34338 examples
+| epoch 003:   3000 / 4292 loss=4.931, nll_loss=4.931, ppl=30.5, wps=7832, ups=27, wpb=294.957, bsz=8.000, num_updates=7293, lr=0.002, gnorm=10.688, clip=1.000, oom=0.000, wall=32, train_wall=300
+| epoch 003:   4000 / 4292 loss=4.879, nll_loss=4.879, ppl=29.43, wps=7829, ups=27, wpb=288.514, bsz=8.000, num_updates=8293, lr=0.002, gnorm=10.104, clip=1.000, oom=0.000, wall=68, train_wall=333
+| epoch 003 | loss 4.868 | nll_loss 4.868 | ppl 29.2 | wps 7879 | ups 27 | wpb 289.623 | bsz 8.000 | num_updates 8584 | lr 0.002 | gnorm 10.127 | clip 1.000 | oom 0.000 | wall 79 | train_wall 342
+| epoch 003 | valid on 'valid' subset | loss 4.663 | nll_loss 4.663 | ppl 25.33 | num_updates 8584 | best_loss 4.60552
+| saved checkpoint checkpoints/transformer/checkpoint3.pt (epoch 3 @ 8584 updates) (writing took 0.40483880043029785 seconds)
+| done training in 84.2 seconds
