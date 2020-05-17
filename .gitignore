@@ -4,3 +4,4 @@
 *.ipynb_checkpoints
 mosesdecoder/
 subword-nmt/
+metrics/metrics/meteor-1.5
