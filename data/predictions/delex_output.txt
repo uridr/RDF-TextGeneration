@@ -1,0 +1,4222 @@
+ARTIST was born in BIRTHPLACE .
+Albany is located in the orgia .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in Georororororgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+CELESTIALBODY has an escape .
+ARTIST was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with the musical .
+Albany is located in the COUNTRY .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+Albany is located in the orgia .
+The ground of SPORTSTEAM is located in GROUND .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created by
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER , written by
+FOOD is a dish from COUNTRY .
+ARTIST was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a dish from COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST &apos; s genre is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in LOCATION .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+Albany is located in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+POLITICIAN was born in the leader .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Al Anderson is located in the city ated by
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in LOCATION .
+Al Anderson is located in the city ated by
+ARTIST died in DEATHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape sq km .
+ARTIST is associated with the musical .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF .
+FOOD is a dish from COUNTRY .
+CELESTIALBODY has an escape sq km .
+Albany is located in the orgia .
+Albany is part of ISPARTOF .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Al Anderson is located in the city ated by
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is located in LOCATION .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+BUILDING is located in the city in LOCATION .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created by
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is located in Georororgia .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is part of where the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+ARTIST died in DEATHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+WRITTENWORK was published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Al Anderson is located in the city ated by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a dish from the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+SPORTSTEAM is located in the leader .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+BUILDING is located in COUNTRY .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT has a runway length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+Albany is part of ISPARTOF .
+CELESTIALBODY has an escape sq km .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of where ETHNICGROUP are an ethnic group .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created by
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+FOOD is a food found in COUNTRY .
+Albany is located in COUNTRY .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+FOOD is a dish from COUNTRY .
+Albany is located in the orgia .
+ASTRONAUT was born in DEATHPLACE .
+BUILDING is located in LOCATION , which is located in LOCATION .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+Al Anderson is located in the city ated by
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+The comic character , was created by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built by
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , Blockbuster , was created by
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE , BIRTHPLACE .
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in COUNTRY .
+The comic character , was created by
+Albany is located in the orgia .
+FOOD is a dish from COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by the COUNTRY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The comic character , was created by
+ASTRONAUT was born in DEATHPLACE .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built by
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of built of built of the LAUNCHSITE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created COMICSCHARACTER .
+BUILDING is located in LOCATION , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+Albany is located in the orgia .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+The comic character , was created by
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in the city in LOCATION .
+The comic character , Blockbuster , was created by
+The MEANOFTRANSPORTATION was built by
+Albany is a .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a dish from COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in the leader .
+The comic character , was created by
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , Blockbuster , was created by
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+The comic character , was created by
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST died in DEATHPLACE .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in the COUNTRYORIGIN .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION was manufactured by the LAUNCHSITE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is located in LOCATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+Albany is located in COUNTRY .
+The UNIVERSITY in CITY , established in ESTABLISHED .
+ARTIST is associated with the musical .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+ARTIST died in DEATHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , Blockbuster , was created by
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a dish from the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of where the COUNTRY .
+SPORTSTEAM is located in the leader .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+Al Anderson is located in GROUND .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created by
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in DEATHPLACE .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+The UNIVERSITY is affiliated with the AFFILIATION .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+The MEANOFTRANSPORTATION was manufactured by
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ARTIST died in DEATHPLACE .
+BUILDING is located in the city in LOCATION .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+The comic character , Blockbuster , was created by
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+Albany is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+Al Anderson is located in GROUND .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+BUILDING has FLOORCOUN.
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , created by
+BUILDING is located in the city in LOCATION .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF .
+Albany is part of ISPARTOF .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Albany is located in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+Albany is located in the orgia .
+CELESTIALBODY has an escape .
+ARTIST died in DEATHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an escape sq km .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an escape .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a dish from the COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The UNIVERSITY is affiliated with the AFFILIATION .
+FOOD is a dish from COUNTRY .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in Georororgia .
+The MEANOFTRANSPORTATION was built by
+The ground of SPORTSTEAM is located in GROUND .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+FOOD is a dish from the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a dish from the COUNTRY .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , where the COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+ARTIST &apos; s genre is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the COUNTRY .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+The comic character , was created by
+BUILDING has FLOORCOUN.
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+ARTIST was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE , BIRTHPLACE .
+Albany is part of where ETHNICGROUP are an ethnic group .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Al Anderson is located in GROUND .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+Al Anderson is located in the city ated by
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+WRITTENWORK was published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created ALMAMATER .
+CELESTIALBODY has an escape .
+Al Anderson is located in the city ated by
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK is published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+CELESTIALBODY has an escape .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The comic character , was created by
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is the RELATEDMEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING has FLOORCOUN.
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+CELESTIALBODY has an escape .
+ASTRONAUT was born in BIRTHPLACE .
+The UNIVERSITY is located in CITY , which is affiliated to the city of CITY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The comic character , was created by
+Albany is located in the orgia .
+BUILDING is located in the city in LOCATION .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is part of ISPARTOF .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+Anaheim is part of ISPARTOF , COUNTRY .
+FOOD is a dish from COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST died in DEATHPLACE .
+FOOD is a dish from the COUNTRY .
+BUILDING has FLOORCOUN.
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING has FLOORCOUN.
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+Al Anderson is located in the city ated by
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+BUILDING is located in COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+BUILDING is located in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was manufactured by
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Al Anderson is located in the city ated by
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , which is located in the city ated by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of built of built of the LAUNCHSITE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+SPORTSTEAM has NUMBEROFMEMBERS members of FULLNAME .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is part of ISPARTOF , where the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+WRITTENWORK was published by PUBLISHER , written in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born on the ALMAMATER .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+The comic character , Blockbuster , was created by
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The comic character , Blockbuster , was created by
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD BY 0 .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+The ground of SPORTSTEAM is located in GROUND .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The UNIVERSITY in CITY , established in ESTABLISHED .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of where ETHNICGROUP are an ethnic group .
+The MEANOFTRANSPORTATION was built by
+Albany is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+The UNIVERSITY is affiliated with the AFFILIATION .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is located in Geororororgia .
+Albany is part of where the COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ASTRONAUT was born on the ALMAMATER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The UNIVERSITY is affiliated with AFFILIATION .
+CELESTIALBODY has an escape sq km .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+The comic character , was created COMICSCHARACTER .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+ASTRONAUT was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was manufactured by
+ARTIST was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Anaheim is part of ISPARTOF , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER , written in the COUNTRY .
+FOOD is a dish from COUNTRY .
+Al Anderson is located in the city ated by
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+BUILDING has FLOORCOUN.
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Al Anderson is located in the city ated by
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in the city in LOCATION .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION was built by
+The comic character , was created COMICSCHARACTER .
+BUILDING is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of where the COUNTRY .
+Al Anderson is located in the city ated by
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , which is located in LOCATION .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape sq km .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in the city in LOCATION .
+ASTRONAUT was born in BIRTHPLACE .
+The UNIVERSITY in CITY , established in ESTABLISHED .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The UNIVERSITY in CITY , established in ESTABLISHED .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an escape sq km .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a dish from COUNTRY .
+ARTIST was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was manufactured by
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+ARTIST was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST died in DEATHPLACE .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in the U .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , Blockbuster , was created by
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+Al Anderson is located in the city ated by
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+Al Anderson is located in the city ated by
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a dish from the COUNTRY .
+ATHLETE plays for CLUB .
+AIRPORT serves the city ated by the city ated by
+The comic character , was created by
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+BUILDING is located in COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in COUNTRY .
+The comic character , Blockbuster , was created by
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an escape sq km .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF in the COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of where the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+SPORTSTEAM has NUMBEROFMEMBERS members of FULLNAME .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+WRITTENWORK was writer writer written by
+CELESTIALBODY has an escape sq km .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+ATHLETE plays for CLUB .
+Al Anderson is located in the city ated by
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+The ETHNICGROUP are an ethnic group in the COUNTRYORIGIN .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a dish from the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an escape sq km .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+AIRPORT is located in the city in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+BUILDING is located in LOCATION which is located in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The comic character , was created by
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape sq km .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+AIRPORT is located in the city in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The UNIVERSITY is affiliated with the AFFILIATION .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+ARTIST was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+Albany is part of where the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by the COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+FOOD is a food found in COUNTRY .
+WRITTENWORK is published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in the COUNTRYORIGIN .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , was created by
+Albany is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+BUILDING is located in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+Albany is part of where ETHNICGROUP are an ethnic group .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , was created by
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+The MEANOFTRANSPORTATION was manufactured by
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+Albany is located in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created COMICSCHARACTER .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in COUNTRY .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The UNIVERSITY is affiliated with the AFFILIATION .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , which is located in LOCATION .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+The comic character , was created by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in Georororororgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in the ALMAMATER .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an ethnic .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in LOCATION .
+The comic character , was created by
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in the COUNTRYORIGIN .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+Al Anderson is located in GROUND .
+ARTIST &apos; s genre is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , which is located in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of where the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+ARTIST was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+CELESTIALBODY has an escape sq km .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+Albany is located in the COUNTRY .
+The UNIVERSITY is affiliated with AFFILIATION .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+Albany is part of where the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape sq km .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in LOCATION .
+BUILDING has FLOORCOUNis located in LOCATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in the orgia .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an escape sq km .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape sq km .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+SPORTSTEAM has NUMBEROFMEMBERS members .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in the city in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION is located in LOCATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of where ETHNICGROUP are an ethnic group .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in DEATHPLACE .
+Albany is part of ISPARTOF .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+AIRPORT is located in LOCATION , which is located in the city ated by
+BUILDING has FLOORCOUN.
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+ARTIST died in DEATHPLACE .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+BUILDING is located in the city in LOCATION .
+ARTIST was born in BIRTHPLACE .
+BUILDING is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , Blockbuster , was created by
+CELESTIALBODY has an escape .
+The comic character , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape sq km .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was writer writer written by
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+CELESTIALBODY has an escape .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF in the COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in the city in LOCATION .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+The UNIVERSITY is affiliated with the AFFILIATION .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION which is located in LOCATION .
+The ground of SPORTSTEAM is located in GROUND .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST died in DEATHPLACE .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in the orgia .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+WRITTENWORK was published by PUBLISHER .
+ARTIST died in DEATHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST died in DEATHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+SPORTSTEAM is located in the leader .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is the RELATEDMEANOFTRANSPORTATION .
+WRITTENWORK was published by PUBLISHER .
+Anaheim is part of ISPARTOF , COUNTRY .
+The comic character , Blockbuster , was created by
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING has FLOORCOUNis located in LOCATION .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION which is located in the city in LOCATION .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The comic character , was created by
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+Albany is located in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created by
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION which is located in LOCATION .
+Albany is located in COUNTRY .
+Albany is located in Georororgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The ground of SPORTSTEAM is located in GROUND .
+CELESTIALBODY has an escape .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The ground of SPORTSTEAM is located in GROUND .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+CELESTIALBODY has an escape .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+Albany is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , was created COMICSCHARACTER .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in the city in LOCATION .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The comic character , was created by
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , was created by
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was manufactured by
+The MEANOFTRANSPORTATION is located in LOCATION which is located in LOCATION .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The UNIVERSITY is affiliated with AFFILIATION .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in DEATHPLACE .
+The MEANOFTRANSPORTATION was built by
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+Albany is located in Geororororgia .
+The comic character , Blockbuster , was created by
+The comic character , was created by
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by the COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of where ETHNICGROUP are an ethnic group .
+Albany is located in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+Al Anderson is located in the city ated by
+ASTRONAUT was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in DEATHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in the leader .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+SPORTSTEAM is located in the leader .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+Albany is located in the COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was built by
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+Al Anderson is located in the city ated by
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by the COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING has FLOORCOUNis located in LOCATION .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF in the COUNTRY .
+The comic character , Blockbuster , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The UNIVERSITY is affiliated with the AFFILIATION .
+AIRPORT is located in LOCATION , which is located in the city ated by
+BUILDING is located in LOCATION which is located in LOCATION .
+WRITTENWORK was published by the COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+The comic character , was created by
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built by
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created ALMAMATER .
+Albany is located in the orgia .
+ARTIST is associated with the musical .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , was created COMICSCHARACTER .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF in the COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+WRITTENWORK was published by PUBLISHER .
+Al Anderson is located in the city ated by
+ASTRONAUT was born in DEATHPLACE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD BY 0 .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+BUILDING is located in COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+Albany is part of ISPARTOF .
+Albany is part of ISPARTOF , where the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in LOCATION which is located in LOCATION .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was manufactured by
+ASTRONAUT was born in BIRTHPLACE .
+Al Anderson is located in GROUND .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in DEATHPLACE .
+Albany is located in COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape sq km .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was manufactured by the LAUNCHSITE .
+The MEANOFTRANSPORTATION was manufactured by
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the COUNTRY .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in the COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION which is located in LOCATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born on the ALMAMATER .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+WRITTENWORK is published by PUBLISHER .
+BUILDING is located in LOCATION which is located in LOCATION .
+ARTIST was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in Geororgia .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+AIRPORT has a runway length of RUNWAYLENGTH .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT serves the city ated by the city ated by
+The comic character , was created by
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF .
+FOOD is a dish from the COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+BUILDING is located in LOCATION , which is located in LOCATION .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF .
+ARTIST was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an ethnic .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was manufactured from the LAUNCHSITE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF , where the COUNTRY .
+The MEANOFTRANSPORTATION is found in COUNTRY .
+ASTRONAUT was born in DEATHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , was created by
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+Albany is part of ISPARTOF .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , was created by
+Al Anderson is located in the city ated by
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an escape .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , was created by
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , was created by
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE , BIRTHPLACE .
+CELESTIALBODY has an escape .
+BUILDING is located in LOCATION , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+The comic character , was created by
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+Albany is a .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+Albany is located in Georororgia .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER , written in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape sq km .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+Albany is located in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER , written by
+BUILDING is located in the city in LOCATION .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of ISPARTOF , where the COUNTRY .
+The MEANOFTRANSPORTATION was built of built of built of the LAUNCHSITE .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST died in DEATHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+Albany is part of where ETHNICGROUP are an ethnic group .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+Albany is located in the orgia .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+Albany is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a dish from COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+The UNIVERSITY in CITY , established in ESTABLISHED .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING has FLOORCOUN.
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , Blockbuster , was created by
+FOOD is a dish from the COUNTRY .
+The comic character , Blockbuster , was created by
+AIRPORT has a runway length of RUNWAYLENGTH .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The comic character , was created by
+ARTIST is associated with the musical .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , which is located in the city ated by
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+ASTRONAUT was born in DEATHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with the musical and ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the COUNTRY .
+ARTIST is associated with the musical .
+ARTIST died in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was built of built of the LAUNCHSITE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is located in the orgia .
+Albany is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF in the COUNTRY .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST died in DEATHPLACE .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The UNIVERSITY is affiliated with the AFFILIATION .
+SPORTSTEAM has NUMBEROFMEMBERS members of FULLNAME .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The ETHNICGROUP are an ethnic group in the COUNTRYORIGIN .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ASTRONAUT was born on the ALMAMATER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+WRITTENWORK was published by the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an ethnic .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of where the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+The UNIVERSITY is affiliated with AFFILIATION .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+BUILDING is located in COUNTRY .
+CELESTIALBODY has an escape .
+Al Anderson is located in the city ated by
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION which is located in LOCATION .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , which is located in LOCATION .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is located in Georororgia .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST died in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , Blockbuster , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING has FLOORCOUNis located in COMPLETION.
+BUILDING is located in LOCATION , which is located in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a dish from COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING has FLOORCOUNis located in LOCATION .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , was created by
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+CELESTIALBODY has an escape .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+BUILDING has FLOORCOUN.
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF in the COUNTRY .
+Albany is located in the orgia .
+CELESTIALBODY has an orbital period of ORBITALPERIOD BY 0 .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+BUILDING is located in the city in LOCATION .
+Albany is located in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , created by
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING has FLOORCOUN.
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+ARTIST died in DEATHPLACE .
+BUILDING is located in the city in LOCATION .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+WRITTENWORK was writer writer written by
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+CELESTIALBODY has an escape .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+ARTIST is associated with the musical .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an escape sq km .
+ARTIST is associated with the musical .
+The comic character , was created COMICSCHARACTER .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+Albany is part of ISPARTOF .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF .
+Albany is located in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape sq km .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in COUNTRY .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Anaheim is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in LOCATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in the city in LOCATION .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of where the COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Al Anderson is located in the city ated by
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , where the COUNTRY .
+SPORTSTEAM has NUMBEROFMEMBERS members .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+The MEANOFTRANSPORTATION was built by
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , which is located in LOCATION .
+CELESTIALBODY has an escape .
+FOOD is a dish from COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Al Anderson is located in the city ated by
+Albany is part of ISPARTOF .
+Albany is located in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of where ETHNICGROUP are an ethnic group .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the orgia .
+ARTIST was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was manufactured from the LAUNCHSITE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+ARTIST is associated with the musical .
+Albany is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+BUILDING is located in LOCATION .
+Albany is located in the orgia .
+The ground of SPORTSTEAM is located in GROUND .
+The UNIVERSITY is affiliated with the AFFILIATION .
+The comic character , Blockbuster , was created by
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF in the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+BUILDING is located in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+BUILDING is located in the city in LOCATION .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The comic character , was created by
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+Al Anderson is located in the city ated by
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , was created by
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+Albany is located in Geororgia .
+The MEANOFTRANSPORTATION was built by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST is associated with the musical .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+FOOD is a food found in COUNTRY .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+ASTRONAUT was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+The comic character , Blockbuster , was created by
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The comic character , was created by
+Albany is part of ISPARTOF , COUNTRY .
+Albany is located in the COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ARTIST died in DEATHPLACE .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+ATHLETE plays for CLUB .
+The comic character , was created by
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+The UNIVERSITY is affiliated with AFFILIATION .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built of built of the LAUNCHSITE .
+The ground of SPORTSTEAM is located in GROUND .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF .
+ASTRONAUT was born in DEATHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The UNIVERSITY is located in CITY , which is affiliated to the city of CITY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created COMICSCHARACTER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT has a runway length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+Al Anderson is located in the city ated by
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is located in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is the RELATEDMEANOFTRANSPORTATION .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+CELESTIALBODY has an escape .
+The comic character , Blockbuster , was created by
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created COMICSCHARACTER .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST died in DEATHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+SPORTSTEAM has NUMBEROFMEMBERS members of FULLNAME .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in COUNTRY .
+The comic character , was created ALMAMATER .
+FOOD is a dish from COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+The comic character , Blockbuster , was created by
+AIRPORT has a runway length of RUNWAYLENGTH .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT has a runway length of RUNWAYLENGTH .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST is associated with the musical .
+POLITICIAN was born in the U .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a dish from COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+FOOD is a dish from the COUNTRY .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+FOOD is a dish from the COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+SPORTSTEAM has NUMBEROFMEMBERS members of FULLNAME .
+FOOD is a food found in COUNTRY .
+ARTIST was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape sq km .
+BUILDING is located in the city in LOCATION .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+Al Anderson is located in the city ated by
+The comic character , was created by
+FOOD is a dish from COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape sq km .
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+Anaheim is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of where ETHNICGROUP are an ethnic group .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The UNIVERSITY is affiliated with AFFILIATION .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built of built of the LAUNCHSITE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF .
+Albany is located in Georororororgia .
+The comic character , was created by
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST died in DEATHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+ASTRONAUT was born in DEATHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+Albany is part of ISPARTOF in the COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+FOOD is a dish from COUNTRY .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST died in DEATHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION which is located in LOCATION .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+ASTRONAUT was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ATHLETE plays for CLUB .
+FOOD is a dish from the COUNTRY .
+Albany is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+The comic character , was created COMICSCHARACTER .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+The comic character , was created by
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in LOCATION , which is located in LOCATION .
+The comic character , was created COMICSCHARACTER .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was manufactured by the LAUNCHSITE .
+ARTIST died in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+ARTIST died in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+Albany is located in Geororororgia .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+Albany is located in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER , written in the COUNTRY .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+The MEANOFTRANSPORTATION is located in the LAUNCHSITE .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION which is located in the city in LOCATION .
+Albany is part of ISPARTOF .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING has FLOORCOUNis located in COMPLETIONDATE .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ASTRONAUT was born in DEATHPLACE .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+WRITTENWORK was published by PUBLISHER .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a dish from the COUNTRY .
+FOOD is a food found in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an escape .
+ARTIST is associated with the musical .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+WRITTENWORK was published by PUBLISHER .
+AIRPORT serves the city ated by the city ated by
+FOOD is a food found in COUNTRY .
+Al Anderson is located in the city ated by
+AIRPORT has a runway length of RUNWAYLENGTH .
+The ETHNICGROUP are an ethnic group in the COUNTRYORIGIN .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST died in DEATHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The ground of SPORTSTEAM is located in GROUND .
+Albany is part of ISPARTOF , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+CELESTIALBODY has an escape .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER , written in the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+SPORTSTEAM is located in the leader .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+The comic character , was created by
+AIRPORT is located in LOCATION , COUNTRY .
+The ETHNICGROUP are an ethnic group from the COUNTRYORIGIN .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in Georororgia .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of where ETHNICGROUP are an ethnic group .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+The comic character , was created by
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+The comic character , Blockbuster , was created by
+Al Anderson is located in the city ated by
+WRITTENWORK was published by PUBLISHER , written by
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is located in the COUNTRY .
+The comic character , was created by
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF in the COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the orgia .
+Al Anderson is located in the city ated by
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The comic character , was created by
+AIRPORT has a runway length of RUNWAYLENGTH .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was manufactured by
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+The ground of SPORTSTEAM is located in GROUND .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was manufactured by
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+ARTIST is associated with the musical .
+Albany is located in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF in the COUNTRY .
+Albany is located in the orgia .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was built by
+The comic character , was created COMICSCHARACTER .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION was built by
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is located in Geororgia .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The comic character , was created COMICSCHARACTER .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+The comic character , Blockbuster , was created by
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of where ETHNICGROUP are one of the ethnic groups .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is located in the COUNTRY .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+FOOD is a food found in the COUNTRY .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The MEANOFTRANSPORTATION was manufactured by
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in the U .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in the ALMAMATER .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST died in DEATHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , created by
+ARTIST is associated with the musical .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+AIRPORT has a runway length of RUNWAYLENGTH .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+BUILDING is located in the city in LOCATION .
+Albany is located in the orgia .
+WRITTENWORK was published by PUBLISHER .
+WRITTENWORK was published by PUBLISHER .
+AIRPORT has a runway length of RUNWAYLENGTH .
+AIRPORT is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The comic character , was created by
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+CELESTIALBODY has an escape .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+Albany is part of ISPARTOF .
+The MEANOFTRANSPORTATION was manufactured from the LAUNCHSITE .
+AIRPORT is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+ARTIST was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST &apos; s genre is associated with the ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape sq km .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+Albany is located in the orgia .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+AIRPORT has a runway length of RUNWAYLENGTH .
+The leader of SPORTSTEAM is located in the leader .
+Albany is located in the orgia .
+BUILDING has FLOORCOUN.
+BUILDING is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+FOOD is a dish from COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is found in COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+FOOD is a dish from COUNTRY .
+The comic character , Blockbuster , was created by
+BUILDING is located in LOCATION which is located in LOCATION .
+The MEANOFTRANSPORTATION was built by
+ATHLETE plays for CLUB .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF .
+ASTRONAUT was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in COUNTRY .
+FOOD is a food found in COUNTRY .
+ARTIST died in DEATHPLACE .
+The leader of SPORTSTEAM is located in the leader .
+ATHLETE plays for CLUB .
+Albany is located in the orgia .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is located in the orgia .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+BUILDING is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ASTRONAUT was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+WRITTENWORK was published by PUBLISHER .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ASTRONAUT was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+POLITICIAN was born in BIRTHPLACE .
+Al Anderson is located in the city ated by
+ARTIST is associated with the musical .
+The ground of SPORTSTEAM is located in GROUND .
+ASTRONAUT was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+ASTRONAUT was born in DEATHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in the city in LOCATION .
+BUILDING is located in the city in LOCATION .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+CELESTIALBODY has an escape .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION has a length of RUNWAYLENGTH .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+The MEANOFTRANSPORTATION was built of the LAUNCHSITE .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+ATHLETE plays for CLUB .
+ARTIST was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF in the COUNTRY .
+ATHLETE plays for CLUB .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+ARTIST died in DEATHPLACE .
+CELESTIALBODY has an escape .
+Albany is located in COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in COUNTRY .
+AIRPORT has a runway length of RUNWAYLENGTH .
+AIRPORT is located in LOCATION , COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ATHLETE plays for CLUB .
+Albany is located in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a dish from the COUNTRY .
+FOOD is a food found in COUNTRY .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+BUILDING is located in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+The comic character , was created COMICSCHARACTER .
+ARTIST is associated with the musical .
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with the musical .
+Albany is located in the orgia .
+Albany is located in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+The comic character , was created by
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+AIRPORT is located in LOCATION , COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+ASTRONAUT was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+The ground of SPORTSTEAM is located in GROUND .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+The comic character , Blockbuster , was created by
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+The MEANOFTRANSPORTATION was built by
+ASTRONAUT was born in BIRTHPLACE .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION was manufactured by
+AIRPORT is located in LOCATION , COUNTRY .
+ARTIST died in DEATHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+AIRPORT has a runway length of RUNWAYLENGTH .
+CELESTIALBODY has an escape .
+The MEANOFTRANSPORTATION is located in the COUNTRYORIGIN .
+ARTIST is associated with the musical .
+ARTIST died in DEATHPLACE .
+AIRPORT has a runway length of RUNWAYLENGTH .
+ARTIST is associated with the musical .
+POLITICIAN was born in BIRTHPLACE .
+ASTRONAUT was born in BIRTHPLACE .
+The MEANOFTRANSPORTATION is assembled MEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+ARTIST is associated with the musical .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF .
+POLITICIAN was born in BIRTHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION which is located in LOCATION .
+CELESTIALBODY has an escape .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+The MEANOFTRANSPORTATION was built by MEANOFTRANSPORTATION .
+Albany is part of ISPARTOF , where the COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+AIRPORT has a runway length of RUNWAYLENGTH .
+AIRPORT has a runway length of RUNWAYLENGTH .
+POLITICIAN was born in BIRTHPLACE .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+FOOD is a food found in COUNTRY .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+The MEANOFTRANSPORTATION is assembled in ASSEMBLY .
+CELESTIALBODY has an escape sq km .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+BUILDING has FLOORCOUN.
+Albany is part of ISPARTOF .
+BUILDING is located in the city in LOCATION .
+FOOD is a food found in COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+BUILDING is located in LOCATION , which is located in LOCATION .
+Albany is located in the orgia .
+WRITTENWORK was published by PUBLISHER .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+Albany is located in the COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+ARTIST is associated with the musical .
+ARTIST is associated with the musical .
+Albany is part of ISPARTOF , COUNTRY .
+FOOD is a food found in COUNTRY .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in the RELATEDMEANOFTRANSPORTATION .
+ATHLETE plays for CLUB .
+BUILDING is located in LOCATION which is located in LOCATION .
+BUILDING is located in LOCATION , COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+FOOD is a food found in COUNTRY .
+Albany is part of ISPARTOF , COUNTRY .
+CELESTIALBODY has an escape .
+ATHLETE plays for CLUB .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+FOOD is a food found in COUNTRY .
+ASTRONAUT was born in BIRTHPLACE .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+The MEANOFTRANSPORTATION is located in LOCATION .
+ARTIST died in DEATHPLACE .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+POLITICIAN was born in BIRTHPLACE .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is part of ISPARTOF .
+CELESTIALBODY has an escape .
+The comic character , was created by
+POLITICIAN was born in BIRTHPLACE .
+AIRPORT is located in LOCATION , COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF in the COUNTRY .
+ATHLETE plays for CLUB .
+Albany is part of ISPARTOF , where the COUNTRY .
+CELESTIALBODY has an orbital period of ORBITALPERIOD .
+Albany is located in the orgia .
+BUILDING is located in LOCATION , COUNTRY .
+Albany is located in the COUNTRY .
+Albany is part of ISPARTOF , where the COUNTRY .
+The MEANOFTRANSPORTATION was built by
+FOOD is a food found in COUNTRY .
+Albany is located in the orgia .
+ATHLETE plays for CLUB .
+ARTIST is associated with ASSOCIATEDBAND / ASSOCIATEDMUSICALARTIST .
+WRITTENWORK is published by PUBLISHER .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+WRITTENWORK was published by PUBLISHER .
+BUILDING is located in LOCATION , COUNTRY .
+CELESTIALBODY has an escape sq km .
+FOOD is a food found in COUNTRY .
+Albany is located in the COUNTRY .
+Albany is part of ISPARTOF , which is located in the COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+FOOD is a food found in COUNTRY .
+Albany is located in COUNTRY .
+The MEANOFTRANSPORTATION is located in LOCATION which is located in LOCATION .
+AIRPORT is located in the city in LOCATION , COUNTRY .
+POLITICIAN was born in BIRTHPLACE .
+ARTIST is associated with the musical .
+FOOD is a dish from the COUNTRY .

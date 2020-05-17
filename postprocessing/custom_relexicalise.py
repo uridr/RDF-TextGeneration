@@ -151,8 +151,6 @@ def main(argv):
 	
 	path_org = '../data/datasets/original/'
 	path_pre = '../data/datasets/preprocessed/'
-
-	print(argv)
 	
 	part = argv[0]
 	filepath = argv[1]
