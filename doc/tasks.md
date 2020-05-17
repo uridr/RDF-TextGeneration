@@ -10,8 +10,8 @@
 
 ### 18-19/05/2020
 
-* Report Introduction & Preprocessing Pipeline - 1pp
-* Models Evaluations (eval scripts execution) - 1pp
+* Report Introduction & Preprocessing & Postprocessing Pipeline - 1pp
+* Models Evaluations (eval scripts execution) & Graphs - 1pp
 * Report Pre-eliminary Results of Hyperparameter Tunning - 2pp
 
 ### 20-22/05/2020
