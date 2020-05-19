@@ -1,11 +1,12 @@
 part=test
-file_name=output.txt
+file_name=$1.txt
 
-predict=../data/predictions/
+
+predict=$2
 
 python3 output_targets.py $predict $file_name
 
 prefix=delex_
-file_name_sorted=$prefix$file_name
+file_name_sorted=$predict$prefix$file_name
 
-python3 custom_relexicalise.py $part $predict$file_name_sorted
+python3 custom_relexicalise.py $part $file_name_sorted
