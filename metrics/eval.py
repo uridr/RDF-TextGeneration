@@ -1,6 +1,6 @@
 __author__='thiagocastroferreira'
 
-out_file = "models_metrics"
+out_file = "models_metrics.json"
 
 """
 Author: Organizers of the 2nd WebNLG Challenge
@@ -315,7 +315,7 @@ if __name__ == '__main__':
     logging.info('PRINTING RESULTS...')
     print('PRINTING RESULTS...')
     
-    with open('models_metrics','r') as json_file: 
+    with open('models_metrics.json','r') as json_file: 
         json_metrics = json.load(json_file) 
     
     data = {"model":hyps_path.split("/")[-1]}

@@ -53,7 +53,7 @@ for epoch in "${EPOCHS[@]}"; do
 						# Train the model
 						fairseq-train ../format/BPE_1_000 \
 						              --criterion cross_entropy \
-									  --optimizer adam --lr 1e-03 --clip-norm 0.1 \
+									  --optimizer adam --lr 1e-03 --clip-norm 0.1 --weight-decay .0000001\
 									  --max-epoch $epoch --batch-size $b \
 									  --task translation -s triple -t lex \
 									  --save-dir $SUB_CHE --no-epoch-checkpoints \
@@ -64,5 +64,6 @@ for epoch in "${EPOCHS[@]}"; do
 									  --encoder-embed-dim $emb_dim --decoder-embed-dim $emb_dim \
 									  --decoder-out-embed-dim $emb_dim \
 									  --multihead-self-attention-nheads $heads \
+									  --gated-attention True --self-attention True
 done; done; done; done; done; done
 						
