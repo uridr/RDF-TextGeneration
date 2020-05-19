@@ -43,15 +43,14 @@ writeVersionConfig ()
 for epoch in "${EPOCHS[@]}"; do
 	for b in "${BATCH_SIZE[@]}"; do
 		for drop in "${DROPOUT[@]}"; do
-			for layers in "${LAYERS[@]}"; do
-				for emb_dim in "${EMB_DIM[@]}"; do
-					for heads in "${ATT_HEADS[@]}"; do
-						# Determine version and build directories
-						determineVersion
-						# Write config version into .txt file
-						writeVersionConfig "$epoch" "$b" "$act" "$drop" "$layers" "$emb_dim" "$heads"
-						# Train the model
-						fairseq-train ../format/BPE_1_000 \
+			for emb_dim in "${EMB_DIM[@]}"; do
+				for heads in "${ATT_HEADS[@]}"; do
+					# Determine version and build directories
+					determineVersion
+					# Write config version into .txt file
+					writeVersionConfig "$epoch" "$b" "$act" "$drop" "$layers" "$emb_dim" "$heads"
+					# Train the model
+					fairseq-train ../format/BPE_1_000 \
 						              --criterion cross_entropy \
 									  --optimizer adam --lr 1e-03 --clip-norm 0.1\
 									  --max-epoch $epoch --batch-size $b \
@@ -60,7 +59,6 @@ for epoch in "${EPOCHS[@]}"; do
 									  --no-progress-bar --log-interval 1000 --log-format json --tensorboard-logdir $SUB_LOG \
 									  --arch $ARCH --share-input-output-embed \
 									  --dropout $drop \
-									  --encoder-layers $layers --decoder-layers $layers \
 									  --encoder-embed-dim $emb_dim --decoder-embed-dim $emb_dim \
 									  --decoder-out-embed-dim $emb_dim \
 									  --multihead-self-attention-nheads $heads \
