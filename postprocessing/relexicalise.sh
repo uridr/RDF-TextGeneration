@@ -1,5 +1,5 @@
 part=test
-file_name=$1.txt
+file_name=$1
 
 
 predict=$2

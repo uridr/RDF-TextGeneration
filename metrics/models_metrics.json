@@ -1,6 +1,16 @@
 [
     {
-        "model": "delex_v10.txt.lex",
+        "model": "fconv_self_att_wp_v0",
+        "metrics": {
+            "BLEU": 26.47,
+            "BLEU NLTK": 0.26,
+            "METEOR": 0.28,
+            "chrF++": 0.48,
+            "TER": 0.63
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_v10",
         "metrics": {
             "BLEU": 30.28,
             "BLEU NLTK": 0.3,
@@ -10,23 +20,13 @@
         }
     },
     {
-        "model": "delex_v10.txt.lex",
+        "model": "transformer_iwslt_de_en_v111",
         "metrics": {
-            "BLEU": 30.28,
-            "BLEU NLTK": 0.3,
-            "METEOR": 0.31,
-            "chrF++": 0.53,
-            "TER": 0.59
-        }
-    },
-    {
-        "model": "delex_voutput.txt.lex",
-        "metrics": {
-            "BLEU": 5.21,
-            "BLEU NLTK": 0.05,
-            "METEOR": 0.12,
-            "chrF++": 0.2,
-            "TER": 0.78
+            "BLEU": 1.4,
+            "BLEU NLTK": 0.01,
+            "METEOR": 0.04,
+            "chrF++": 0.06,
+            "TER": 2.21
         }
     }
 ]

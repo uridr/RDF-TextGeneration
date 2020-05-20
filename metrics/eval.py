@@ -321,7 +321,8 @@ if __name__ == '__main__':
     with open(out_file,'r') as json_file: 
         json_metrics = json.load(json_file) 
     
-    data = {"model":hyps_path.split("/")[-1]}
+
+    data = {"model":hyps_path.split("/")[-2]}
     data["metrics"] = {}
     for idx in range(0,len(values)):
         data["metrics"][headers[idx]]  = values[idx]
