@@ -47,6 +47,9 @@ import nltk
 import subprocess
 import re
 import json
+import sys
+
+
 
 from bert_score import score
 from metrics.chrF import computeChrF
@@ -315,7 +318,7 @@ if __name__ == '__main__':
     logging.info('PRINTING RESULTS...')
     print('PRINTING RESULTS...')
     
-    with open('models_metrics.json','r') as json_file: 
+    with open(out_file,'r') as json_file: 
         json_metrics = json.load(json_file) 
     
     data = {"model":hyps_path.split("/")[-1]}
