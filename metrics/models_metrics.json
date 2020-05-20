@@ -8,5 +8,25 @@
             "chrF++": 0.53,
             "TER": 0.59
         }
+    },
+    {
+        "model": "delex_v10.txt.lex",
+        "metrics": {
+            "BLEU": 30.28,
+            "BLEU NLTK": 0.3,
+            "METEOR": 0.31,
+            "chrF++": 0.53,
+            "TER": 0.59
+        }
+    },
+    {
+        "model": "delex_voutput.txt.lex",
+        "metrics": {
+            "BLEU": 5.21,
+            "BLEU NLTK": 0.05,
+            "METEOR": 0.12,
+            "chrF++": 0.2,
+            "TER": 0.78
+        }
     }
 ]

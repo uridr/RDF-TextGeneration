@@ -60,7 +60,7 @@ def delexicalisation(out_src, out_trg, category, properties_objects):
 	:param properties_objects: dictionary mapping properties to objects
 	:return: delexicalised strings of the source and target; dictionary containing mappings of the replacements made
 	"""
-	with open('delex_dict.json') as data_file:
+	with open('../postprocessing/delex_dict.json') as data_file:
 		data = json.load(data_file)
 	# replace all occurrences of Alan_Bean to ASTRONAUT in input
 	delex_subj = data[category]
