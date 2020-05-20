@@ -14,21 +14,28 @@
 * Models Evaluations (eval scripts execution) & Graphs - 1pp
 * Report Pre-eliminary Results of Hyperparameter Tunning - 2pp
 
-### 20-22/05/2020
+### 20-23/05/2020
 
-+ Analysis of BPE Tokens - 1 pp
-+ Alternative Techniques - 3 pp
++ Analysis Pre-eliminary Results of Hyperparameter Tunning - 2pp
++ Server Adaption - 1pp
++ Report Architectures & Related Work - 2pp
++ Back-Translation - 1pp 
+
+### 23-25/05/2020
+
++ Analysis of BPE Tokens - 2 pp
++ Execute & Report Alternative Techniques - 2 pp
   + *Understanding Back-Translation at Scale (Edunov et al., 2018)*
   + *GloVe Embeddings* vs Automatic Learned
 
-### 23-24/05/2020
+### 26-27/05/2020
+
++ Presentation - 4pp
+
+### 28-31/05/2020
 
 + Report BPE Preprocessing - 1pp
+
 + Report Alternative Tecniques - 2pp
 + Report Conclusions - 1pp
 
-
-
-### 25/05/2020
-
-+ Presentation - 4pp
