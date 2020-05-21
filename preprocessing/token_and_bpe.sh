@@ -1,11 +1,11 @@
 src=triple
 tgt=lex
 
-TEXT=../data/datasets/preprocessed
+TEXT=../data/benchmark/preprocessed
 
-train=$TEXT/train/train-webnlg-all-notdelex
-valid=$TEXT/dev/dev-webnlg-all-notdelex
-test=$TEXT/test/test-webnlg-all-notdelex
+train=$TEXT/train/train-webnlg-all-delex
+valid=$TEXT/dev/dev-webnlg-all-delex
+test=$TEXT/test/test-webnlg-all-delex
 
 # set MOSESDECODER variable to mosesdecoder folder
 TOKENIZER=$MOSESDECODER/scripts/tokenizer/tokenizer.perl
@@ -19,7 +19,7 @@ done
 # set BPE variable to subword-nmt folder
 BPEROOT=$BPE/subword_nmt
 BPE_TOKENS=1000
-BPE_CODE=code
+BPE_CODE=codes
 
 # merge files to learn BPE
 cat $train.tok.$src $train.tok.$tgt > $train.$src-$tgt

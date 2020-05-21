@@ -15,7 +15,6 @@ mkdir $train/$sub_folder
 mkdir $valid/$sub_folder
 mkdir $test/$sub_folder
 
-#../data/datasets/preprocessed/train/
 
 for file in $train $valid $test; do
     cp $file/*$name.tok.$src.bpe $file/$sub_folder/language.$src
@@ -23,5 +22,5 @@ for file in $train $valid $test; do
 done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \
-    --trainpref $TEXT/train/$sub_folder/language --validpref $TEXT/dev/$sub_folder/language --testpref $TEXT/test/format/language \
+    --trainpref $TEXT/train/$sub_folder/language --validpref $TEXT/dev/$sub_folder/language --testpref $TEXT/test/$sub_folder/language \
     --destdir ../data/datasets/$sub_folder --joined-dictionary --cpu

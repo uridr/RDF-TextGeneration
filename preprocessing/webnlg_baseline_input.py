@@ -7,6 +7,8 @@ import getopt
 from collections import defaultdict
 from benchmark_reader import Benchmark
 
+BENCHMARK_TEST = False # Global Variable MODIFY IT!
+
 
 def select_files(topdir, category='', size=(1, 8)):
     """
@@ -19,7 +21,11 @@ def select_files(topdir, category='', size=(1, 8)):
     finaldirs = [topdir+'/'+str(item)+'triples' for item in range(size[0], size[1])]
     finalfiles = []
     for item in finaldirs:
-        finalfiles += [(item, filename) for filename in os.listdir(item)]
+        if topdir.split('/')[-1] == 'test' and BENCHMARK_TEST:
+            finalfiles += [(item, filename) for filename in os.listdir(item)]
+            break
+        else:
+            finalfiles += [(item, filename) for filename in os.listdir(item)]
     if category:
         finalfiles = []
         for item in finaldirs:
