@@ -3,9 +3,9 @@ tgt=lex
 
 TEXT=../data/datasets/preprocessed
 
-train=$TEXT/train/train-webnlg-all-delex
-valid=$TEXT/dev/dev-webnlg-all-delex
-test=$TEXT/test/test-webnlg-all-delex
+train=$TEXT/train/train-webnlg-all-notdelex
+valid=$TEXT/dev/dev-webnlg-all-notdelex
+test=$TEXT/test/test-webnlg-all-notdelex
 
 # set MOSESDECODER variable to mosesdecoder folder
 TOKENIZER=$MOSESDECODER/scripts/tokenizer/tokenizer.perl

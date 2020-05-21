@@ -3,23 +3,25 @@ tgt=lex
 
 TEXT=../data/datasets/preprocessed
 
+sub_folder=format_lex
+
 train=$TEXT/train
 valid=$TEXT/dev
 test=$TEXT/test
 
-name=train-webnlg-all-delex.tok
+name=-webnlg-all-notdelex
 
-mkdir $train/format
-mkdir $valid/format
-mkdir $test/format
+mkdir $train/$sub_folder
+mkdir $valid/$sub_folder
+mkdir $test/$sub_folder
 
 #../data/datasets/preprocessed/train/
 
 for file in $train $valid $test; do
-    cp $file/*.$src.bpe $file/format/language.$src
-    cp $file/*.$tgt.bpe $file/format/language.$tgt
+    cp $file/*$name.tok.$src.bpe $file/$sub_folder/language.$src
+    cp $file/*$name.tok.$tgt.bpe $file/$sub_folder/language.$tgt
 done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \
-    --trainpref $TEXT/train/format/language --validpref $TEXT/dev/format/language --testpref $TEXT/test/format/language \
-    --destdir ../data/datasets/format --joined-dictionary --cpu
+    --trainpref $TEXT/train/$sub_folder/language --validpref $TEXT/dev/$sub_folder/language --testpref $TEXT/test/format/language \
+    --destdir ../data/datasets/$sub_folder --joined-dictionary --cpu
