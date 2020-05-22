@@ -1,5 +1,5 @@
-src=triple
-tgt=lex
+src=lex
+tgt=triple
 
 TEXT=../data/datasets/preprocessed
 
