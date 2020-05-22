@@ -51,17 +51,17 @@ for epoch in "${EPOCHS[@]}"; do
 					writeVersionConfig "$epoch" "$b" "$act" "$drop" "$layers" "$emb_dim" "$heads"
 					# Train the model
 					fairseq-train ../format/BPE_1_000 \
-						              --criterion cross_entropy \
+						       			  --criterion cross_entropy \
 									  --optimizer adam --lr 1e-03 --clip-norm 0.1\
 									  --max-epoch $epoch --batch-size $b \
 									  --task translation -s triple -t lex \
 									  --save-dir $SUB_CHE --no-epoch-checkpoints \
 									  --no-progress-bar --log-interval 1000 --log-format json --tensorboard-logdir $SUB_LOG \
-									  --arch $ARCH --share-input-output-embed \
+									  --arch $ARCH \
 									  --dropout $drop \
 									  --encoder-embed-dim $emb_dim --decoder-embed-dim $emb_dim \
 									  --decoder-out-embed-dim $emb_dim \
 									  --multihead-self-attention-nheads $heads \
 									  --gated-attention True --self-attention True
-done; done; done; done; done; done
+done; done; done; done; done
 						
