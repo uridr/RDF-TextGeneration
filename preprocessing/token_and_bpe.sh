@@ -1,7 +1,7 @@
 src=triple
 tgt=lex
 
-TEXT=../data/benchmark/preprocessed
+TEXT=../data/wiki_data
 
 train=$TEXT/train/train-webnlg-all-delex
 valid=$TEXT/dev/dev-webnlg-all-delex
@@ -18,7 +18,7 @@ done
 
 # set BPE variable to subword-nmt folder
 BPEROOT=$BPE/subword_nmt
-BPE_TOKENS=1000
+BPE_TOKENS=10000
 BPE_CODE=codes
 
 # merge files to learn BPE
