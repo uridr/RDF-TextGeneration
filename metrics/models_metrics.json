@@ -108,5 +108,25 @@
             "chrF++": 0.54,
             "TER": 0.58
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_v4_tunning",
+        "metrics": {
+            "BLEU": 33.0,
+            "BLEU NLTK": 0.33,
+            "METEOR": 0.33,
+            "chrF++": 0.57,
+            "TER": 0.54
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_v5_tunning",
+        "metrics": {
+            "BLEU": 34.72,
+            "BLEU NLTK": 0.35,
+            "METEOR": 0.34,
+            "chrF++": 0.58,
+            "TER": 0.55
+        }
     }
 ]
