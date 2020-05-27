@@ -22,10 +22,10 @@ BPE_TOKENS=1000
 BPE_CODE=../data/datasets/preprocessed/code_lex
 
 # merge files to learn BPE
-#cat $train.tok.$src $train.tok.$tgt > $train.$src-$tgt
+cat $train.tok.$src $train.tok.$tgt > $train.$src-$tgt
 
 #echo "learn_bpe.py on train.triple-lex..."
-#python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
+python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
 
 for L in $src $tgt; do
     for f in $train.tok.$L $valid.tok.$L $test.tok.$L; do
