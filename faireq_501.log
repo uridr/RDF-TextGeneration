@@ -1,0 +1,225 @@
+| distributed init (rank 0): tcp://localhost:19175
+| distributed init (rank 1): tcp://localhost:19175
+| initialized host d5lnx26.upc.edu as rank 1
+| initialized host d5lnx26.upc.edu as rank 0
+Namespace(activation_dropout=0.0, activation_fn='relu', adam_betas='(0.9, 0.98)', adam_eps=1e-08, adaptive_input=False, adaptive_softmax_cutoff=None, adaptive_softmax_dropout=0, arch='transformer_iwslt_de_en', attention_dropout=0.0, best_checkpoint_metric='loss', bpe=None, bucket_cap_mb=25, clip_norm=0.0, cpu=False, criterion='label_smoothed_cross_entropy', cross_self_attention=False, curriculum=0, data='../format/BPE_1_000', dataset_impl=None, ddp_backend='c10d', decoder_attention_heads=8, decoder_embed_dim=256, decoder_embed_path=None, decoder_ffn_embed_dim=1024, decoder_input_dim=256, decoder_layerdrop=0, decoder_layers=4, decoder_layers_to_keep=None, decoder_learned_pos=False, decoder_normalize_before=False, decoder_output_dim=256, device_id=0, disable_validation=False, distributed_backend='nccl', distributed_init_method='tcp://localhost:19175', distributed_no_spawn=False, distributed_port=-1, distributed_rank=0, distributed_world_size=2, dropout=0.2, empty_cache_freq=0, encoder_attention_heads=8, encoder_embed_dim=256, encoder_embed_path=None, encoder_ffn_embed_dim=1024, encoder_layerdrop=0, encoder_layers=4, encoder_layers_to_keep=None, encoder_learned_pos=False, encoder_normalize_before=False, fast_stat_sync=False, find_unused_parameters=False, fix_batches_to_gpus=False, fixed_validation_seed=None, fp16=True, fp16_init_scale=128, fp16_scale_tolerance=0.0, fp16_scale_window=None, keep_interval_updates=-1, keep_last_epochs=-1, label_smoothing=0.1, layer_wise_attention=False, layernorm_embedding=False, lazy_load=False, left_pad_source='True', left_pad_target='False', load_alignments=False, log_format='json', log_interval=1000, lr=[0.002], lr_scheduler='inverse_sqrt', max_epoch=20, max_sentences=32, max_sentences_valid=32, max_source_positions=1024, max_target_positions=1024, max_tokens=None, max_tokens_valid=None, max_update=0, maximize_best_checkpoint_metric=False, memory_efficient_fp16=False, min_loss_scale=0.0001, min_lr=-1, no_cross_attention=False, no_epoch_checkpoints=True, no_last_checkpoints=False, no_progress_bar=False, no_save=False, no_save_optimizer_state=False, no_scale_embedding=False, no_token_positional_embeddings=False, num_workers=1, optimizer='adam', optimizer_overrides='{}', raw_text=False, required_batch_size_multiple=8, reset_dataloader=False, reset_lr_scheduler=False, reset_meters=False, reset_optimizer=False, restore_file='checkpoint_last.pt', save_dir='checkpoints/transformer2/v6/che', save_interval=1, save_interval_updates=0, seed=1, sentence_avg=False, share_all_embeddings=True, share_decoder_input_output_embed=False, skip_invalid_size_inputs_valid_test=False, source_lang='triple', target_lang='lex', task='translation', tensorboard_logdir='checkpoints/transformer2/v6/log', threshold_loss_scale=None, tokenizer=None, train_subset='train', truncate_source=False, update_freq=[1], upsample_primary=1, use_bmuf=False, user_dir=None, valid_subset='valid', validate_interval=1, warmup_init_lr=1e-07, warmup_updates=1000, weight_decay=0.0)
+| [triple] dictionary: 1000 types
+| [lex] dictionary: 1000 types
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.triple
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.lex
+| ../format/BPE_1_000 valid triple-lex 4313 examples
+TransformerModel(
+  (encoder): TransformerEncoder(
+    (embed_tokens): Embedding(1000, 256, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0): TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (1): TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (2): TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (3): TransformerEncoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+  (decoder): TransformerDecoder(
+    (embed_tokens): Embedding(1000, 256, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0): TransformerDecoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (1): TransformerDecoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (2): TransformerDecoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+      (3): TransformerDecoderLayer(
+        (self_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (k_proj): Linear(in_features=256, out_features=256, bias=True)
+          (v_proj): Linear(in_features=256, out_features=256, bias=True)
+          (q_proj): Linear(in_features=256, out_features=256, bias=True)
+          (out_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=256, out_features=1024, bias=True)
+        (fc2): Linear(in_features=1024, out_features=256, bias=True)
+        (final_layer_norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+)
+| model transformer_iwslt_de_en, criterion LabelSmoothedCrossEntropyCriterion
+| num. model params: 7628800 (num. trained: 7628800)
+| training on 2 GPUs
+| max tokens per GPU = None and max sentences per GPU = 32
+| no existing checkpoint found checkpoints/transformer2/v6/che/checkpoint_last.pt
+| loading train data for epoch 0
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.triple
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.lex
+| ../format/BPE_1_000 train triple-lex 34338 examples
+{"epoch": 1, "train_loss": "6.759", "train_nll_loss": "6.173", "train_ppl": "72.18", "train_wps": "16124", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "537", "train_lr": "0.00107405", "train_gnorm": "1.582", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "128.000", "train_wall": "82", "train_train_wall": "70"}
+{"epoch": 1, "valid_loss": "4.800", "valid_nll_loss": "3.784", "valid_ppl": "13.77", "valid_num_updates": "537"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 1 @ 537 updates) (writing took 0.3470790386199951 seconds)
+{"epoch": 2, "train_loss": "4.514", "train_nll_loss": "3.508", "train_ppl": "11.38", "train_wps": "16306", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "1074", "train_lr": "0.00192987", "train_gnorm": "1.164", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "128.000", "train_wall": "164", "train_train_wall": "140"}
+{"epoch": 2, "valid_loss": "3.844", "valid_nll_loss": "2.628", "valid_ppl": "6.18", "valid_num_updates": "1074", "valid_best_loss": "3.84368"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 2 @ 1074 updates) (writing took 0.41361117362976074 seconds)
+| WARNING: overflow detected, setting loss scale to: 64.0
+{"epoch": 3, "train_loss": "3.826", "train_nll_loss": "2.714", "train_ppl": "6.56", "train_wps": "16292", "train_ups": "7", "train_wpb": "2266.144", "train_bsz": "63.944", "train_num_updates": "1610", "train_lr": "0.00157622", "train_gnorm": "0.851", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "245", "train_train_wall": "209"}
+{"epoch": 3, "valid_loss": "3.440", "valid_nll_loss": "2.148", "valid_ppl": "4.43", "valid_num_updates": "1610", "valid_best_loss": "3.43988"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 3 @ 1610 updates) (writing took 0.4090723991394043 seconds)
+| WARNING: overflow detected, setting loss scale to: 32.0
+{"epoch": 4, "train_loss": "3.443", "train_nll_loss": "2.278", "train_ppl": "4.85", "train_wps": "16375", "train_ups": "7", "train_wpb": "2269.657", "train_bsz": "63.944", "train_num_updates": "2146", "train_lr": "0.00136526", "train_gnorm": "0.778", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "32.000", "train_wall": "326", "train_train_wall": "278"}
+{"epoch": 4, "valid_loss": "3.208", "valid_nll_loss": "1.890", "valid_ppl": "3.71", "valid_num_updates": "2146", "valid_best_loss": "3.20824"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 4 @ 2146 updates) (writing took 0.4082527160644531 seconds)
+| WARNING: overflow detected, setting loss scale to: 16.0
+{"epoch": 5, "train_loss": "3.230", "train_nll_loss": "2.036", "train_ppl": "4.1", "train_wps": "16298", "train_ups": "7", "train_wpb": "2268.757", "train_bsz": "63.944", "train_num_updates": "2682", "train_lr": "0.00122124", "train_gnorm": "0.752", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "16.000", "train_wall": "407", "train_train_wall": "348"}
+{"epoch": 5, "valid_loss": "3.062", "valid_nll_loss": "1.703", "valid_ppl": "3.26", "valid_num_updates": "2682", "valid_best_loss": "3.06191"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 5 @ 2682 updates) (writing took 0.4105517864227295 seconds)
+{"epoch": 6, "train_loss": "3.090", "train_nll_loss": "1.878", "train_ppl": "3.67", "train_wps": "16441", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "3219", "train_lr": "0.00111473", "train_gnorm": "0.739", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "16.000", "train_wall": "488", "train_train_wall": "417"}
+{"epoch": 6, "valid_loss": "2.969", "valid_nll_loss": "1.586", "valid_ppl": "3", "valid_num_updates": "3219", "valid_best_loss": "2.96875"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 6 @ 3219 updates) (writing took 0.40671801567077637 seconds)
+{"epoch": 7, "train_loss": "2.986", "train_nll_loss": "1.761", "train_ppl": "3.39", "train_wps": "16223", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "3756", "train_lr": "0.00103197", "train_gnorm": "0.704", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "16.000", "train_wall": "570", "train_train_wall": "487"}
+{"epoch": 7, "valid_loss": "2.895", "valid_nll_loss": "1.505", "valid_ppl": "2.84", "valid_num_updates": "3756", "valid_best_loss": "2.89469"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 7 @ 3756 updates) (writing took 0.41434288024902344 seconds)
+| WARNING: overflow detected, setting loss scale to: 8.0
+{"epoch": 8, "train_loss": "2.908", "train_nll_loss": "1.673", "train_ppl": "3.19", "train_wps": "16189", "train_ups": "7", "train_wpb": "2268.168", "train_bsz": "63.944", "train_num_updates": "4292", "train_lr": "0.000965384", "train_gnorm": "0.755", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "8.000", "train_wall": "652", "train_train_wall": "556"}
+{"epoch": 8, "valid_loss": "2.837", "valid_nll_loss": "1.444", "valid_ppl": "2.72", "valid_num_updates": "4292", "valid_best_loss": "2.83657"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 8 @ 4292 updates) (writing took 0.4127082824707031 seconds)
+{"epoch": 9, "train_loss": "2.839", "train_nll_loss": "1.596", "train_ppl": "3.02", "train_wps": "16345", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "4829", "train_lr": "0.000910126", "train_gnorm": "0.725", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "8.000", "train_wall": "733", "train_train_wall": "625"}
+{"epoch": 9, "valid_loss": "2.803", "valid_nll_loss": "1.407", "valid_ppl": "2.65", "valid_num_updates": "4829", "valid_best_loss": "2.80325"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 9 @ 4829 updates) (writing took 0.4131448268890381 seconds)
+| WARNING: overflow detected, setting loss scale to: 4.0
+{"epoch": 10, "train_loss": "2.791", "train_nll_loss": "1.543", "train_ppl": "2.91", "train_wps": "16257", "train_ups": "7", "train_wpb": "2269.136", "train_bsz": "63.944", "train_num_updates": "5365", "train_lr": "0.000863466", "train_gnorm": "0.676", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "815", "train_train_wall": "695"}
+{"epoch": 10, "valid_loss": "2.775", "valid_nll_loss": "1.369", "valid_ppl": "2.58", "valid_num_updates": "5365", "valid_best_loss": "2.77459"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 10 @ 5365 updates) (writing took 0.407085657119751 seconds)
+{"epoch": 11, "train_loss": "2.743", "train_nll_loss": "1.490", "train_ppl": "2.81", "train_wps": "16309", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "5902", "train_lr": "0.000823247", "train_gnorm": "0.689", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "896", "train_train_wall": "764"}
+{"epoch": 11, "valid_loss": "2.731", "valid_nll_loss": "1.326", "valid_ppl": "2.51", "valid_num_updates": "5902", "valid_best_loss": "2.73109"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 11 @ 5902 updates) (writing took 0.40694451332092285 seconds)
+{"epoch": 12, "train_loss": "2.703", "train_nll_loss": "1.445", "train_ppl": "2.72", "train_wps": "16313", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "6439", "train_lr": "0.000788172", "train_gnorm": "0.650", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "977", "train_train_wall": "834"}
+{"epoch": 12, "valid_loss": "2.721", "valid_nll_loss": "1.307", "valid_ppl": "2.47", "valid_num_updates": "6439", "valid_best_loss": "2.72093"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 12 @ 6439 updates) (writing took 0.413532018661499 seconds)
+{"epoch": 13, "train_loss": "2.670", "train_nll_loss": "1.409", "train_ppl": "2.65", "train_wps": "16338", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "6976", "train_lr": "0.000757228", "train_gnorm": "0.629", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "1059", "train_train_wall": "903"}
+{"epoch": 13, "valid_loss": "2.699", "valid_nll_loss": "1.284", "valid_ppl": "2.44", "valid_num_updates": "6976", "valid_best_loss": "2.6994"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 13 @ 6976 updates) (writing took 0.40951037406921387 seconds)
+{"epoch": 14, "train_loss": "2.640", "train_nll_loss": "1.376", "train_ppl": "2.59", "train_wps": "16328", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "7513", "train_lr": "0.000729665", "train_gnorm": "0.635", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "1140", "train_train_wall": "973"}
+{"epoch": 14, "valid_loss": "2.678", "valid_nll_loss": "1.258", "valid_ppl": "2.39", "valid_num_updates": "7513", "valid_best_loss": "2.67788"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 14 @ 7513 updates) (writing took 0.41469764709472656 seconds)
+{"epoch": 15, "train_loss": "2.613", "train_nll_loss": "1.346", "train_ppl": "2.54", "train_wps": "16362", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "8050", "train_lr": "0.000704907", "train_gnorm": "0.620", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "1222", "train_train_wall": "1043"}
+{"epoch": 15, "valid_loss": "2.664", "valid_nll_loss": "1.245", "valid_ppl": "2.37", "valid_num_updates": "8050", "valid_best_loss": "2.66447"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 15 @ 8050 updates) (writing took 0.40981578826904297 seconds)
+{"epoch": 16, "train_loss": "2.589", "train_nll_loss": "1.319", "train_ppl": "2.5", "train_wps": "16018", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "8587", "train_lr": "0.00068251", "train_gnorm": "0.663", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "4.000", "train_wall": "1304", "train_train_wall": "1112"}
+{"epoch": 16, "valid_loss": "2.641", "valid_nll_loss": "1.229", "valid_ppl": "2.34", "valid_num_updates": "8587", "valid_best_loss": "2.64134"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 16 @ 8587 updates) (writing took 0.4105973243713379 seconds)
+| WARNING: overflow detected, setting loss scale to: 2.0
+{"epoch": 17, "train_loss": "2.569", "train_nll_loss": "1.298", "train_ppl": "2.46", "train_wps": "16247", "train_ups": "7", "train_wpb": "2269.670", "train_bsz": "63.944", "train_num_updates": "9123", "train_lr": "0.000662157", "train_gnorm": "0.607", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "2.000", "train_wall": "1386", "train_train_wall": "1181"}
+{"epoch": 17, "valid_loss": "2.629", "valid_nll_loss": "1.209", "valid_ppl": "2.31", "valid_num_updates": "9123", "valid_best_loss": "2.62886"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 17 @ 9123 updates) (writing took 0.41235852241516113 seconds)
+{"epoch": 18, "train_loss": "2.546", "train_nll_loss": "1.272", "train_ppl": "2.42", "train_wps": "16308", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "9660", "train_lr": "0.000643489", "train_gnorm": "0.635", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "2.000", "train_wall": "1467", "train_train_wall": "1251"}
+{"epoch": 18, "valid_loss": "2.623", "valid_nll_loss": "1.207", "valid_ppl": "2.31", "valid_num_updates": "9660", "valid_best_loss": "2.6232"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 18 @ 9660 updates) (writing took 0.41521549224853516 seconds)
+| WARNING: overflow detected, setting loss scale to: 1.0
+{"epoch": 19, "train_loss": "2.530", "train_nll_loss": "1.255", "train_ppl": "2.39", "train_wps": "16183", "train_ups": "7", "train_wpb": "2267.276", "train_bsz": "63.944", "train_num_updates": "10196", "train_lr": "0.000626347", "train_gnorm": "0.595", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "1.000", "train_wall": "1549", "train_train_wall": "1320"}
+{"epoch": 19, "valid_loss": "2.618", "valid_nll_loss": "1.195", "valid_ppl": "2.29", "valid_num_updates": "10196", "valid_best_loss": "2.61792"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 19 @ 10196 updates) (writing took 0.4073984622955322 seconds)
+{"epoch": 20, "train_loss": "2.515", "train_nll_loss": "1.238", "train_ppl": "2.36", "train_wps": "16387", "train_ups": "7", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "10733", "train_lr": "0.000610477", "train_gnorm": "0.730", "train_clip": "0.000", "train_oom": "0.000", "train_loss_scale": "1.000", "train_wall": "1630", "train_train_wall": "1390"}
+{"epoch": 20, "valid_loss": "2.605", "valid_nll_loss": "1.181", "valid_ppl": "2.27", "valid_num_updates": "10733", "valid_best_loss": "2.60483"}
+| saved checkpoint checkpoints/transformer2/v6/che/checkpoint_best.pt (epoch 20 @ 10733 updates) (writing took 0.3478970527648926 seconds)
+| done training in 1634.0 seconds
