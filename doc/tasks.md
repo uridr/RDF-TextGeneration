@@ -1,41 +1,66 @@
-### 14-17/05/2020 
+### 30/05/20
 
-+ Build Architectures & Hyperparameter automatic configurations - 2pp
-  + ftransformer_iwslt_de_en 
-  + fconv_self_att_wp: https://github.com/pytorch/fairseq/blob/master/examples/stories/README.md
-+ Build Evaluation Scripts  - 2pp 
-  + Models Prediction
-  + Performance Metrics (BLEU, METEOR,...)
-  + *WebNLG postprocess*
++ Generate new data configuration with more BPE subwords
+  + `Oriol`
 
-### 18-19/05/2020
+### 31/05/20
 
-* Report Introduction & Preprocessing & Postprocessing Pipeline - 1pp
-* Models Evaluations (eval scripts execution) & Graphs - 1pp
-* Report Pre-eliminary Results of Hyperparameter Tunning - 2pp
++ Apply Lower case and camelCase removal to `.lex` `.triples`  for pretrained embeddings
+  + `Roser` `Oriol` 
++ Train Convolutional 
+  + `David`
++ Train Transformer with positional encoding and other interesting parameters
+  + `David`
++ Loss plots 
+  + `Roger`
 
-### 20-23/05/2020
+### 01/06/20
 
-+ Analysis Pre-eliminary Results of Hyperparameter Tunning - 2pp
-+ Server Adaption - 1pp
-+ Report Architectures & Related Work - 2pp
-+ Back-Translation - 1pp 
++ Train Back Translation with pretrained embeddings
+  + `David`
++ Generate an entity list related to train data for BT and scrape Wikipedia content
+  + `Roser` `Oriol`
++ Report Architectures
+  + `Roger`
 
-### 23-25/05/2020
+### 02/06/20
 
-+ Analysis of BPE Tokens - 2 pp
-+ Execute & Report Alternative Techniques - 2 pp
-  + *Understanding Back-Translation at Scale (Edunov et al., 2018)*
-  + *GloVe Embeddings* vs Automatic Learned
++ Proces Wikipedia scrape
+  + `Roser` 
 
-### 26-27/05/2020
++ Report hyperparameter tuning
+  + `David` `Roger`
++  Report Related Work
+  + `Oriol`
++ Train Convolutional and Transformer using pretrained embeddings
+  + `David`
 
-+ Presentation - 4pp
+### 03/06/20
 
-### 28-31/05/2020
++ Train Convolutional and Transformer with more BPE subwords
+  + `David`
 
-+ Report BPE Preprocessing - 1pp
++ Report embedding experiment & pretrained embeddings preprocessing modifications
+  + `Roger` `Oriol`
 
-+ Report Alternative Tecniques - 2pp
-+ Report Conclusions - 1pp
+### 04/06/20
 
++ Report back translation 1st approach
+  + `David`
++ Generate Synthetic Data with BT
+  + `Oriol`
+
+### 05/06/20
+
++ Train Convolutional and Transformer using synthetic Data
+  + `David`
++ Report BPE performance
+  + `Roger`
+
+### 06/06/20
+
++ Report back translation 2nd approach
+  + `Oriol`
+
++ Report Conclusions 
+  + `Roser` `Oriol`
