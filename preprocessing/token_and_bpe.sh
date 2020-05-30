@@ -1,7 +1,7 @@
-src=lex
-tgt=triple
+src=triple
+tgt=lex
 
-TEXT=../data/wiki_data
+TEXT=../data/datasets/preprocessed
 
 train=$TEXT/train/train-webnlg-all-delex
 valid=$TEXT/dev/dev-webnlg-all-delex
@@ -18,8 +18,8 @@ done
 
 # set BPE variable to subword-nmt folder
 BPEROOT=$BPE/subword_nmt
-BPE_TOKENS=1000
-BPE_CODE=../data/datasets/preprocessed/code_lex
+BPE_TOKENS=5000
+BPE_CODE=codes
 
 # merge files to learn BPE
 cat $train.tok.$src $train.tok.$tgt > $train.$src-$tgt
@@ -30,8 +30,8 @@ python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
 for L in $src $tgt; do
     for f in $train.tok.$L $valid.tok.$L $test.tok.$L; do
         echo "apply_bpe.py to ${f}..."
-        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe
+        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe_5000
     done
 done
 
-mv $BPE_CODE $TEXT/$BPE_CODE
+mv $BPE_CODE $TEXT/$BPE_CODE 

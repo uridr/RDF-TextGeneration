@@ -1,15 +1,15 @@
-src=lex
-tgt=triple
+src=triple
+tgt=lex
 
 TEXT=../data/datasets/preprocessed
 
-sub_folder=format_lex_full
+sub_folder=format/DELEX_BPE_5_000
 
 train=$TEXT/train
 valid=$TEXT/dev
 test=$TEXT/test
 
-name=-webnlg-all-notdelex
+name=-webnlg-all-delex
 
 mkdir $train/$sub_folder
 mkdir $valid/$sub_folder
@@ -17,8 +17,8 @@ mkdir $test/$sub_folder
 
 
 for file in $train $valid $test; do
-    cp $file/*$name.$src $file/$sub_folder/language.$src
-    cp $file/*$name.$tgt $file/$sub_folder/language.$tgt
+    cp $file/*$name.tok.$src.bpe_5000 $file/$sub_folder/language.$src
+    cp $file/*$name.tok.$src.bpe_5000 $file/$sub_folder/language.$tgt
 done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \
