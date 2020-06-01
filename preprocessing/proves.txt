@@ -1,4 +1,0 @@
-Hola Roser I was born in birthPlace California 
-in birthDate 30th January 1999.
-What about you? birthYear 99
-ispartof me
