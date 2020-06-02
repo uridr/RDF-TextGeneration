@@ -128,5 +128,15 @@
             "chrF++": 0.58,
             "TER": 0.55
         }
+    },
+    {
+        "model": "fconv_self_att_wp_tunning_v0",
+        "metrics": {
+            "BLEU": 32.99,
+            "BLEU NLTK": 0.33,
+            "METEOR": 0.33,
+            "chrF++": 0.56,
+            "TER": 0.61
+        }
     }
 ]
