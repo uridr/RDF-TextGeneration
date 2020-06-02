@@ -1,11 +1,11 @@
 ### 30/05/20
 
-+ Generate new data configuration with more BPE subwords
++ Generate new data configuration with more BPE subwords - DONE
   + `Oriol`
 
 ### 31/05/20
 
-+ Apply Lower case and camelCase removal to `.lex` `.triples`  for pretrained embeddings
++ Apply Lower case and camelCase removal to `.lex` `.triples`  for pretrained embeddings - DONE
   + `Roser` `Oriol` 
 + Train Convolutional 
   + `David`
