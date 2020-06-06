@@ -3,7 +3,7 @@
 prefix=delex_
 
 
-for d in ~/Desktop/RDF-TextGeneration/data/predictions/*/ ; do
+for d in ../data/predictions/*/ ; do
     for filename in $d*.txt; do
     	#echo $(basename $filename)
     	. ../postprocessing/relexicalise.sh $(basename $filename) $d 
