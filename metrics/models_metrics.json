@@ -168,5 +168,25 @@
             "chrF++": 0.6,
             "TER": 0.53
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bpe_5000_v11",
+        "metrics": {
+            "BLEU": 36.9,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.36,
+            "chrF++": 0.61,
+            "TER": 0.55
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_v10",
+        "metrics": {
+            "BLEU": 42.41,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.66,
+            "TER": 0.46
+        }
     }
 ]

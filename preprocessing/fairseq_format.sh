@@ -20,7 +20,7 @@ for file in $train $valid $test; do
 	rm $file/$sub_folder/language.$src
     cp $file/*$name.tok.$src.bpe_500 $file/$sub_folder/language.$src
     rm $file/$sub_folder/language.$tgt
-    cp $file/*$name.tok.$src.bpe_500 $file/$sub_folder/language.$tgt
+    cp $file/*$name.tok.$tgt.bpe_500 $file/$sub_folder/language.$tgt
 done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \
