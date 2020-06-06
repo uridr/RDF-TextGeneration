@@ -1,0 +1,1960 @@
+| distributed init (rank 1): tcp://localhost:11885
+| distributed init (rank 0): tcp://localhost:11885
+| initialized host d5lnx26.upc.edu as rank 1
+| initialized host d5lnx26.upc.edu as rank 0
+Namespace(adam_betas='(0.9, 0.98)', adam_eps=1e-08, arch='fconv_self_att_wp', best_checkpoint_metric='loss', bpe=None, bucket_cap_mb=25, clip_norm=0.1, cpu=False, criterion='label_smoothed_cross_entropy', curriculum=0, data='../format/BPE_1_000', dataset_impl=None, ddp_backend='c10d', decoder_attention='True', decoder_embed_dim=256, decoder_layers='[(512, 4)] * 4 + [(768, 4)] * 2 + [(1024, 4)] * 1', decoder_out_embed_dim=256, device_id=0, disable_validation=False, distributed_backend='nccl', distributed_init_method='tcp://localhost:11885', distributed_no_spawn=False, distributed_port=-1, distributed_rank=0, distributed_world_size=2, downsample='True', dropout=0.2, empty_cache_freq=0, encoder_attention='False', encoder_attention_nheads=1, encoder_embed_dim=256, encoder_layers='[(128, 3)] * 2 + [(512,3)] * 1', fast_stat_sync=False, find_unused_parameters=False, fix_batches_to_gpus=False, fixed_validation_seed=None, fp16=True, fp16_init_scale=128, fp16_scale_tolerance=0.0, fp16_scale_window=None, gated_attention='True', keep_interval_updates=-1, keep_last_epochs=-1, label_smoothing=0.1, lazy_load=False, left_pad_source='True', left_pad_target='False', load_alignments=False, log_format='json', log_interval=1000, lr=[0.001], lr_scheduler='inverse_sqrt', max_epoch=10, max_sentences=32, max_sentences_valid=32, max_source_positions=1024, max_target_positions=1024, max_tokens=None, max_tokens_valid=None, max_update=0, maximize_best_checkpoint_metric=False, memory_efficient_fp16=False, min_loss_scale=0.0001, min_lr=-1, multihead_attention_nheads=1, multihead_self_attention_nheads=8, no_epoch_checkpoints=True, no_last_checkpoints=False, no_progress_bar=False, no_save=False, no_save_optimizer_state=False, num_workers=1, optimizer='adam', optimizer_overrides='{}', pretrained='False', pretrained_checkpoint='', project_input='True', raw_text=False, required_batch_size_multiple=8, reset_dataloader=False, reset_lr_scheduler=False, reset_meters=False, reset_optimizer=False, restore_file='checkpoint_last.pt', save_dir='checkpoints/fconv_self_att_wp/v1/che', save_interval=1, save_interval_updates=0, seed=1, self_attention='True', sentence_avg=False, skip_invalid_size_inputs_valid_test=False, source_lang='triple', target_lang='lex', task='translation', tensorboard_logdir='checkpoints/fconv_self_att_wp/v1/log', threshold_loss_scale=None, tokenizer=None, train_subset='train', truncate_source=False, update_freq=[1], upsample_primary=1, use_bmuf=False, user_dir=None, valid_subset='valid', validate_interval=1, warmup_init_lr=1e-07, warmup_updates=1000, weight_decay=0.0)
+| [triple] dictionary: 1000 types
+| [lex] dictionary: 1000 types
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.triple
+| loaded 4313 examples from: ../format/BPE_1_000/valid.triple-lex.lex
+| ../format/BPE_1_000 valid triple-lex 4313 examples
+FConvModelSelfAtt(
+  (encoder): CompositeEncoder(
+    (encoder): FConvEncoder(
+      (embed_tokens): Embedding(1000, 256, padding_idx=1)
+      (embed_positions): LearnedPositionalEmbedding(1024, 256, padding_idx=1)
+      (fc1): Linear(in_features=256, out_features=128, bias=True)
+      (projections): ModuleList(
+        (0): None
+        (1): None
+        (2): Linear(in_features=128, out_features=512, bias=True)
+      )
+      (convolutions): ModuleList(
+        (0): ConvTBC(128, 256, kernel_size=(3,), padding=(0,))
+        (1): ConvTBC(128, 256, kernel_size=(3,), padding=(0,))
+        (2): ConvTBC(128, 1024, kernel_size=(3,), padding=(0,))
+      )
+      (attention): ModuleList(
+        (0): None
+        (1): None
+        (2): None
+      )
+      (attproj): ModuleList()
+      (fc2): Linear(in_features=512, out_features=256, bias=True)
+    )
+  )
+  (decoder): FConvDecoder(
+    (embed_tokens): Embedding(1000, 256, padding_idx=1)
+    (embed_positions): LearnedPositionalEmbedding(1024, 256, padding_idx=1)
+    (fc1): Linear(in_features=256, out_features=512, bias=True)
+    (projections): ModuleList(
+      (0): None
+      (1): None
+      (2): None
+      (3): None
+      (4): Linear(in_features=512, out_features=768, bias=True)
+      (5): None
+      (6): Linear(in_features=768, out_features=1024, bias=True)
+    )
+    (convolutions): ModuleList(
+      (0): LinearizedConvolution(512, 1024, kernel_size=(4,), padding=(3,))
+      (1): LinearizedConvolution(512, 1024, kernel_size=(4,), padding=(3,))
+      (2): LinearizedConvolution(512, 1024, kernel_size=(4,), padding=(3,))
+      (3): LinearizedConvolution(512, 1024, kernel_size=(4,), padding=(3,))
+      (4): LinearizedConvolution(512, 1536, kernel_size=(4,), padding=(3,))
+      (5): LinearizedConvolution(768, 1536, kernel_size=(4,), padding=(3,))
+      (6): LinearizedConvolution(768, 2048, kernel_size=(4,), padding=(3,))
+    )
+    (attention): ModuleList(
+      (0): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+      )
+      (1): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+      )
+      (2): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+      )
+      (3): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+      )
+      (4): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=768, bias=True)
+        )
+      )
+      (5): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=768, bias=True)
+        )
+      )
+      (6): DownsampledMultiHeadAttention(
+        (attention_module): SingleHeadAttention(
+          (in_proj_q): Linear(in_features=256, out_features=256, bias=True)
+          (in_proj_k): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (in_proj_v): Sequential(
+            (0): Linear(in_features=256, out_features=256, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=1024, bias=True)
+        )
+      )
+    )
+    (selfattention): ModuleList(
+      (0): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+        (in_proj_q): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=512, out_features=256, bias=True)
+        (ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+      (1): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+        (in_proj_q): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=512, out_features=256, bias=True)
+        (ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+      (2): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+        (in_proj_q): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=512, out_features=256, bias=True)
+        (ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+      (3): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=512, bias=True)
+        )
+        (in_proj_q): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=512, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=512, out_features=256, bias=True)
+        (ln): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+      (4): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=768, bias=True)
+        )
+        (in_proj_q): Linear(in_features=768, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=768, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=768, out_features=256, bias=True)
+        (ln): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      )
+      (5): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=768, bias=True)
+        )
+        (in_proj_q): Linear(in_features=768, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=768, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=768, out_features=256, bias=True)
+        (ln): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      )
+      (6): SelfAttention(
+        (attention): DownsampledMultiHeadAttention(
+          (0): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (1): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (2): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (3): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (4): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (5): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (6): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (7): SingleHeadAttention(
+            (in_proj_q): Sequential(
+              (0): Linear(in_features=256, out_features=128, bias=True)
+              (1): GLU(dim=-1)
+              (2): Linear(in_features=64, out_features=64, bias=True)
+              (3): GLU(dim=-1)
+              (4): Linear(in_features=32, out_features=32, bias=True)
+            )
+            (in_proj_k): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (in_proj_v): Sequential(
+              (0): Downsample()
+              (1): Sequential(
+                (0): Linear(in_features=256, out_features=128, bias=True)
+                (1): GLU(dim=-1)
+                (2): Linear(in_features=64, out_features=64, bias=True)
+                (3): GLU(dim=-1)
+                (4): Linear(in_features=32, out_features=32, bias=True)
+              )
+            )
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (out_proj): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (in_proj_q): Linear(in_features=1024, out_features=256, bias=True)
+        (in_proj_k): Linear(in_features=1024, out_features=256, bias=True)
+        (in_proj_v): Linear(in_features=1024, out_features=256, bias=True)
+        (ln): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (attproj): ModuleList(
+      (0): Linear(in_features=512, out_features=256, bias=True)
+      (1): Linear(in_features=512, out_features=256, bias=True)
+      (2): Linear(in_features=512, out_features=256, bias=True)
+      (3): Linear(in_features=512, out_features=256, bias=True)
+      (4): Linear(in_features=768, out_features=256, bias=True)
+      (5): Linear(in_features=768, out_features=256, bias=True)
+      (6): Linear(in_features=1024, out_features=256, bias=True)
+    )
+    (fc2): Linear(in_features=1024, out_features=256, bias=True)
+    (fc3): Linear(in_features=256, out_features=1000, bias=True)
+  )
+)
+| model fconv_self_att_wp, criterion LabelSmoothedCrossEntropyCriterion
+| num. model params: 41245032 (num. trained: 41245032)
+| training on 2 GPUs
+| max tokens per GPU = None and max sentences per GPU = 32
+| no existing checkpoint found checkpoints/fconv_self_att_wp/v1/che/checkpoint_last.pt
+| loading train data for epoch 0
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.triple
+| loaded 34338 examples from: ../format/BPE_1_000/train.triple-lex.lex
+| ../format/BPE_1_000 train triple-lex 34338 examples
+| WARNING: overflow detected, setting loss scale to: 64.0
+{"epoch": 1, "train_loss": "7.536", "train_nll_loss": "7.045", "train_ppl": "132.03", "train_wps": "1759", "train_ups": "1", "train_wpb": "2266.024", "train_bsz": "63.944", "train_num_updates": "536", "train_lr": "0.000536046", "train_gnorm": "1.725", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "698", "train_train_wall": "667"}
+{"epoch": 1, "valid_loss": "4.876", "valid_nll_loss": "3.799", "valid_ppl": "13.92", "valid_num_updates": "536"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 1 @ 536 updates) (writing took 2.219841480255127 seconds)
+{"epoch": 2, "train_loss": "4.326", "train_nll_loss": "3.247", "train_ppl": "9.49", "train_wps": "1763", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "1073", "train_lr": "0.000965384", "train_gnorm": "1.105", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "1416", "train_train_wall": "1333"}
+{"epoch": 2, "valid_loss": "3.446", "valid_nll_loss": "2.134", "valid_ppl": "4.39", "valid_num_updates": "1073", "valid_best_loss": "3.44618"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 2 @ 1073 updates) (writing took 4.4391772747039795 seconds)
+{"epoch": 3, "train_loss": "3.377", "train_nll_loss": "2.158", "train_ppl": "4.46", "train_wps": "1757", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "1610", "train_lr": "0.00078811", "train_gnorm": "0.809", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "2141", "train_train_wall": "2001"}
+{"epoch": 3, "valid_loss": "3.031", "valid_nll_loss": "1.678", "valid_ppl": "3.2", "valid_num_updates": "1610", "valid_best_loss": "3.03088"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 3 @ 1610 updates) (writing took 3.967897653579712 seconds)
+{"epoch": 4, "train_loss": "2.990", "train_nll_loss": "1.728", "train_ppl": "3.31", "train_wps": "1759", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "2147", "train_lr": "0.000682471", "train_gnorm": "0.682", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "2863", "train_train_wall": "2671"}
+{"epoch": 4, "valid_loss": "2.866", "valid_nll_loss": "1.505", "valid_ppl": "2.84", "valid_num_updates": "2147", "valid_best_loss": "2.86593"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 4 @ 2147 updates) (writing took 4.851602077484131 seconds)
+{"epoch": 5, "train_loss": "2.792", "train_nll_loss": "1.509", "train_ppl": "2.85", "train_wps": "1758", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "2684", "train_lr": "0.000610392", "train_gnorm": "0.618", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "3586", "train_train_wall": "3338"}
+{"epoch": 5, "valid_loss": "2.748", "valid_nll_loss": "1.366", "valid_ppl": "2.58", "valid_num_updates": "2684", "valid_best_loss": "2.7484"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 5 @ 2684 updates) (writing took 4.210768461227417 seconds)
+{"epoch": 6, "train_loss": "2.658", "train_nll_loss": "1.362", "train_ppl": "2.57", "train_wps": "1761", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "3221", "train_lr": "0.000557192", "train_gnorm": "0.585", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "4309", "train_train_wall": "4006"}
+{"epoch": 6, "valid_loss": "2.683", "valid_nll_loss": "1.296", "valid_ppl": "2.45", "valid_num_updates": "3221", "valid_best_loss": "2.68268"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 6 @ 3221 updates) (writing took 4.083498001098633 seconds)
+{"epoch": 7, "train_loss": "2.561", "train_nll_loss": "1.255", "train_ppl": "2.39", "train_wps": "1763", "train_ups": "1", "train_wpb": "2269.575", "train_bsz": "63.944", "train_num_updates": "3758", "train_lr": "0.000515848", "train_gnorm": "0.565", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "64.000", "train_wall": "5029", "train_train_wall": "4673"}
+{"epoch": 7, "valid_loss": "2.638", "valid_nll_loss": "1.243", "valid_ppl": "2.37", "valid_num_updates": "3758", "valid_best_loss": "2.63781"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 7 @ 3758 updates) (writing took 3.9228084087371826 seconds)
+| WARNING: overflow detected, setting loss scale to: 32.0
+| WARNING: overflow detected, setting loss scale to: 16.0
+| WARNING: overflow detected, setting loss scale to: 8.0
+| WARNING: overflow detected, setting loss scale to: 4.0
+| WARNING: overflow detected, setting loss scale to: 2.0
+{"epoch": 8, "train_loss": "2.488", "train_nll_loss": "1.176", "train_ppl": "2.26", "train_wps": "1736", "train_ups": "1", "train_wpb": "2256.389", "train_bsz": "63.944", "train_num_updates": "4290", "train_lr": "0.000482805", "train_gnorm": "0.560", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "2.000", "train_wall": "5751", "train_train_wall": "5340"}
+WARNING:root:NaN or Inf found in input tensor.
+{"epoch": 8, "valid_loss": "nan", "valid_nll_loss": "nan", "valid_ppl": "nan", "valid_num_updates": "4290", "valid_best_loss": "2.63781"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_last.pt (epoch 8 @ 4290 updates) (writing took 1.671917200088501 seconds)
+| WARNING: overflow detected, setting loss scale to: 1.0
+| WARNING: overflow detected, setting loss scale to: 0.5
+| WARNING: overflow detected, setting loss scale to: 0.25
+| WARNING: overflow detected, setting loss scale to: 0.125
+| WARNING: overflow detected, setting loss scale to: 0.0625
+| WARNING: overflow detected, setting loss scale to: 0.03125
+| WARNING: overflow detected, setting loss scale to: 0.015625
+| WARNING: overflow detected, setting loss scale to: 0.0078125
+| WARNING: overflow detected, setting loss scale to: 0.00390625
+| WARNING: overflow detected, setting loss scale to: 0.001953125
+{"epoch": 9, "train_loss": "2.426", "train_nll_loss": "1.106", "train_ppl": "2.15", "train_wps": "1723", "train_ups": "1", "train_wpb": "2249.793", "train_bsz": "63.943", "train_num_updates": "4817", "train_lr": "0.000455629", "train_gnorm": "0.549", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "0.002", "train_wall": "6467", "train_train_wall": "6004"}
+WARNING:root:NaN or Inf found in input tensor.
+{"epoch": 9, "valid_loss": "2.602", "valid_nll_loss": "1.207", "valid_ppl": "2.31", "valid_num_updates": "4817", "valid_best_loss": "nan"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 9 @ 4817 updates) (writing took 4.616758108139038 seconds)
+| WARNING: overflow detected, setting loss scale to: 0.0009765625
+{"epoch": 10, "train_loss": "2.377", "train_nll_loss": "1.051", "train_ppl": "2.07", "train_wps": "1757", "train_ups": "1", "train_wpb": "2268.716", "train_bsz": "63.944", "train_num_updates": "5353", "train_lr": "0.000432217", "train_gnorm": "0.540", "train_clip": "1.000", "train_oom": "0.000", "train_loss_scale": "0.001", "train_wall": "7190", "train_train_wall": "6672"}
+{"epoch": 10, "valid_loss": "2.582", "valid_nll_loss": "1.196", "valid_ppl": "2.29", "valid_num_updates": "5353", "valid_best_loss": "2.58155"}
+| saved checkpoint checkpoints/fconv_self_att_wp/v1/che/checkpoint_best.pt (epoch 10 @ 5353 updates) (writing took 3.4029529094696045 seconds)
+| done training in 7216.4 seconds
