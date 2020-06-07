@@ -1,7 +1,7 @@
 import json
 
 filepath = "../data/loss/"
-filename = "faireq_501"
+filename = "fairseq_644"
 
 
 lossLogs = []
