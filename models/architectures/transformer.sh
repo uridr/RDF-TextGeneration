@@ -70,17 +70,20 @@ for epoch in "${EPOCHS[@]}"; do
                         if [ "$pretrained" == "True" ]; then
                           pretrained="--encoder-embed-path $EMBEDDING_PATH --decoder-embed-path $EMBEDDING_PATH"
                           # Determine embedding dimension
-                          if [ "$EMBEDDING_PATH" == "../embeddings/g*" ]; then
+                          if [ "$EMBEDDING_PATH" == *"50d"* ]; then
+                            use_emb_dim=50
+                          elif [ "$EMBEDDING_PATH" == *"100d"* ]; then
+                            use_emb_dim=100
+                          elif [ "$EMBEDDING_PATH" == *"200d"* ]; then
                             use_emb_dim=200
                           else
-                            use_emb_dim=100
+                            use_emb_dim=300
                           fi
                         # Elsewise don't use pretrained embeddings
                         else
                           pretrained=""
                           use_emb_dim="$emb_dim"
                         fi
-                        echo "Using embedding dimesion: $use_emb_dim"
 
                         # Determine learned position embeddings flags
                         if [[ "$enc_pos" == "True" && "$dec_pos" == "True" ]]; then

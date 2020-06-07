@@ -35,17 +35,20 @@ fi
 
 # Parse data command line options
 FORMAT=${3:-"delex"}
-PARAMS=${4:-"1000"}
 # Delexicalised data format options
 if [ "$FORMAT" == "delex" ]; then
 	FORMAT_VERSION=../format_delex
-	# Determine number of BPE words
-	if [ "$PARAMS" == "1000" ]; then
-		FORMAT_VERSION=$FORMAT_VERSION/BPE_1_000
-	elif [ "$PARAMS" == "5000" ]; then
-		FORMAT_VERSION=$FORMAT_VERSION/BPE_5_000
-	elif [ "$PARAMS" == "500" ]; then
+	# Parse number of BPE words to be used
+	BPE=${4:-"1000"}
+	# Determine data version relative path
+	if [ "$BPE" == "500" ]; then
 		FORMAT_VERSION=$FORMAT_VERSION/BPE_500
+	elif [ "$BPE" == "1000" ]; then
+		FORMAT_VERSION=$FORMAT_VERSION/BPE_1_000
+	elif [ "$BPE" == "5000" ]; then
+		FORMAT_VERSION=$FORMAT_VERSION/BPE_5_000
+	elif [ "$BPE" == "7000" ]; then
+		FORMAT_VERSION=$FORMAT_VERSION/BPE_7_000
 	# Handle incorrect inputs
 	else
 		echo "Number of BPE words not supported!"
@@ -61,17 +64,40 @@ elif [ "$FORMAT" == "lex" ]; then
 	else
 		FORMAT_VERSION=$FORMAT_VERSION/LOW_CAMEL
 	fi
+	# Parse embedding options to be used
+	EMB_SOURCE=${4:-glove}
+	EMB_DIM=${5:-"300"}
 	# Determine embeddings to be used
-	if [ "$PARAMS" == "glove" ]; then
-		EMBEDDING_PATH=$EMBEDDING_PATH/glove.6B.200d.txt
-	elif [ "$PARAMS" == "enwiki" ]; then
-		EMBEDDING_PATH=$EMBEDDING_PATH/enwiki_20180420_100d.txt
-	# Handle incorrect inputs
+	if [ "$EMB_SOURCE" == "glove" ]; then
+		EMBEDDING_PATH=$EMBEDDING_PATH/glove
+		# Determine dimension
+		if [ "$EMB_DIM" == "50" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/glove.6B.50d.txt
+		elif [ "$EMB_DIM" == "100" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/glove.6B.100d.txt
+		elif [ "$EMB_DIM" == "200" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/glove.6B.200d.txt
+		elif [ "$EMB_DIM" == "300" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/glove.6B.300d.txt
+		else
+			echo "Embedding dimension not supported for $EMB_SOURCE embeddings!"
+			exit 9999
+		fi
+	elif [ "$EMB_SOURCE" == "enwiki" ]; then
+		EMBEDDING_PATH=$EMBEDDING_PATH/enwiki
+		# Determine dimension
+		if [ "$EMB_DIM" == "100" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/enwiki_20180420_100d.txt
+		elif [ "$EMB_DIM" == "300" ]; then
+			EMBEDDING_PATH=$EMBEDDING_PATH/enwiki_20180420_300d.txt
+		else
+			echo "Embedding dimension not supported for $EMB_SOURCE embeddings!"
+			exit 9999
+		fi
 	else
-		echo "Embeddings not supported!"
+		echo "Embeddings source is not supported!"
 		exit 9999
 	fi
-# Handle incorrect inputs
 else
 	echo "Specified data version is not supported!"
 	exit 9999
@@ -84,8 +110,10 @@ if [ ! -d "$CHECKPOINTS" ]; then
 	mkdir $CHECKPOINTS
 fi
 
-
-echo "Training model: $ARCHITECTURE with config file: $CONFIG_FILES, data version: $FORMAT_VERSION, " \
-     "and pretrained embeddings: $EMBEDDING_PATH"
+# Verbose some useful info
+echo "Training model: $ARCHITECTURE with config file: $CONFIG_FILES and data version: $FORMAT_VERSION"
+if [ ! -z "$EMBEDDING_PATH" ]; then
+	echo "Using pretrained embeddings: $EMBEDDING_PATH"
+fi
 
 bash $ARCHITECTURE $CONFIG_FILES $FORMAT_VERSION $EMBEDDING_PATH
