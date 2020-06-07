@@ -218,5 +218,15 @@
             "chrF++": 0.6,
             "TER": 0.53
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_v13",
+        "metrics": {
+            "BLEU": 37.45,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.48
+        }
     }
 ]
