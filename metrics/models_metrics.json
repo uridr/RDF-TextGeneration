@@ -188,5 +188,35 @@
             "chrF++": 0.66,
             "TER": 0.46
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bpe_5000_v11_low",
+        "metrics": {
+            "BLEU": 38.33,
+            "BLEU NLTK": 0.38,
+            "METEOR": 0.36,
+            "chrF++": 0.62,
+            "TER": 0.53
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_v6_extra_tunning_low",
+        "metrics": {
+            "BLEU": 37.11,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.52
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bpe_500_v12_low",
+        "metrics": {
+            "BLEU": 36.41,
+            "BLEU NLTK": 0.36,
+            "METEOR": 0.35,
+            "chrF++": 0.6,
+            "TER": 0.53
+        }
     }
 ]
