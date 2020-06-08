@@ -228,5 +228,35 @@
             "chrF++": 0.61,
             "TER": 0.48
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_wiki_300c_v14",
+        "metrics": {
+            "BLEU": 41.69,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.65,
+            "TER": 0.45
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_glove_300_v15",
+        "metrics": {
+            "BLEU": 42.85,
+            "BLEU NLTK": 0.43,
+            "METEOR": 0.39,
+            "chrF++": 0.66,
+            "TER": 0.46
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_glove_100_v16",
+        "metrics": {
+            "BLEU": 36.98,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.6,
+            "TER": 0.48
+        }
     }
 ]

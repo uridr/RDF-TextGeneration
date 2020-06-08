@@ -18,7 +18,7 @@ done
 
 # set BPE variable to subword-nmt folder
 BPEROOT=$BPE/subword_nmt
-BPE_TOKENS=500
+BPE_TOKENS=7000
 BPE_CODE=codes
 
 # merge files to learn BPE
@@ -30,7 +30,7 @@ python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
 for L in $src $tgt; do
     for f in $train.tok.$L $valid.tok.$L $test.tok.$L; do
         echo "apply_bpe.py to ${f}..."
-        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe_500
+        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe_7000
     done
 done
 

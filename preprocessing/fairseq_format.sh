@@ -3,7 +3,7 @@ tgt=lex
 
 TEXT=../data/datasets/preprocessed
 
-sub_folder=format/DELEX_BPE_500
+sub_folder=format/DELEX_LOW_CAMEL
 
 train=$TEXT/train
 valid=$TEXT/dev
@@ -18,9 +18,9 @@ mkdir $test/$sub_folder
 
 for file in $train $valid $test; do
 	rm $file/$sub_folder/language.$src
-    cp $file/*$name.tok.$src.bpe_500 $file/$sub_folder/language.$src
+    cp $file/*$name.$src.low.camel $file/$sub_folder/language.$src
     rm $file/$sub_folder/language.$tgt
-    cp $file/*$name.tok.$tgt.bpe_500 $file/$sub_folder/language.$tgt
+    cp $file/*$name.$tgt.low.camel $file/$sub_folder/language.$tgt
 done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \

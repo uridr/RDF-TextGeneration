@@ -1,5 +1,5 @@
 data=../data/datasets/preprocessed
-name=-webnlg-all-notdelex
+name=-webnlg-all-delex
 
 for split in train test dev; do
 	rm $data/$split/$split$name.triple.low.camel
