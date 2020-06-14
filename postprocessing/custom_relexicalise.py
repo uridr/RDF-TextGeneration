@@ -7,6 +7,8 @@ import getopt
 from collections import defaultdict
 from benchmark_reader import Benchmark
 
+BENCHMARK_TEST = True # Global Variable MODIFY IT!
+
 def select_files(topdir, category='', size=(1, 8)):
 	"""
 	Collect all xml files from a benchmark directory.
@@ -18,7 +20,11 @@ def select_files(topdir, category='', size=(1, 8)):
 	finaldirs = [topdir+'/'+str(item)+'triples' for item in range(size[0], size[1])]
 	finalfiles = []
 	for item in finaldirs:
-		finalfiles += [(item, filename) for filename in os.listdir(item)]
+		if topdir.split('/')[-1] == 'test' and BENCHMARK_TEST:
+			finalfiles += [(item, filename) for filename in os.listdir(item)]
+			break
+		else:
+			finalfiles += [(item, filename) for filename in os.listdir(item)]
 	if category:
 		finalfiles = []
 		for item in finaldirs:
@@ -34,7 +40,7 @@ def relexicalise(predfile, rplc_list, path_pre, part):
 	"""
 	relex_predictions = []
 	print(len(rplc_list))
-	with open(predfile, 'r') as f:
+	with open('../data/predictions/transformer_iwslt_de_en_tunning_benchmark_v23/delex_transformer_iwslt_de_en_tunning_benchmark_v23.txt', 'r') as f:
 		predictions = [line for line in f]
 
 	print(len(predictions))
@@ -126,12 +132,14 @@ def create_source_target(b, options, dataset, delex=True):
 			# delete white spaces
 			source_out.append(' '.join(out_src.split()))
 			target_out.append(' '.join(out_trg.split()))
+			if BENCHMARK_TEST and dataset == 'test': break
+
 	
 	# shuffle two lists in the same way
 	random.seed(10)
 	if delex:
 		corpus = list(zip(source_out, target_out, rplc_list))
-		random.shuffle(corpus)
+		#random.shuffle(corpus)
 		source_out, target_out, rplc_list = zip(*corpus)
    
 	return rplc_list
@@ -149,8 +157,8 @@ def input_files(path_org, path_pre, filepath, part):
 
 def main(argv):
 	
-	path_org = '../data/datasets/original/'
-	path_pre = '../data/datasets/preprocessed/'
+	path_org = '../data/benchmark/original/'
+	path_pre = '../data/benchmark/preprocessed/'
 	
 	part = argv[0]
 	filepath = argv[1]

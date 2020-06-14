@@ -4,7 +4,7 @@ import sys
 
 def main(argv):
 	filepath = argv[0]
-	min_characters = 80     # minimum characters within a paragraph
+	min_characters = 80       # minimum characters within a paragraph
 	max_characters = 80*1.5   # maximum characters within a paragraph
 	#Read line by line: Keep only targets
 	with open(filepath) as fp:

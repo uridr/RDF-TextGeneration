@@ -288,5 +288,54 @@
             "chrF++": 0.61,
             "TER": 0.56
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 6.86,
+            "BLEU NLTK": 0.07,
+            "METEOR": 0.18,
+            "chrF++": 0.29,
+            "TER": 1.04
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 6.86,
+            "BLEU NLTK": 0.07,
+            "METEOR": 0.18,
+            "chrF++": 0.29,
+            "TER": 1.04
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 23.1,
+            "BLEU NLTK": 0.23,
+            "METEOR": 0.23,
+            "chrF++": 0.44,
+            "TER": 0.76
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 23.89,
+            "BLEU NLTK": 0.24,
+            "METEOR": 0.24,
+            "chrF++": 0.45,
+            "TER": 0.74
+        }
+    },
+    {
+        "model": "Desktop",
+        "metrics": {
+            "BLEU": 36.5,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "TER": 0.52
+        }
     }
 ]
