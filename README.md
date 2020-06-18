@@ -85,6 +85,32 @@ This will generate two files `rdf_aligned.txt` and `text_aligned.txt` correspond
 
 ### Preprocessing 
 
+We show how to preprocess from the original data in `.xml` format to fairseq format. Notice that some preprocessing steps can be skipped, as in some experiments, but we show how to do the entire preprocessing pipeline described in our work.
+
+Turning the `.xml` files into  source and target plain text splitted acording to default train, dev, test separation. Being in the `preprocessing` directory, follow these commands.
+
+```bash
+sh xml_to_text.sh
+```
+
+Then, we apply Byte Pair Encoding and Moses tokenization.
+
+```sh 
+export MOSESDECODER=../mosesdecoder/  #Provide the directory of the cloned repository
+export BPE=../subword-nmt/						#Provide the directory of the cloned repository
+sh token_and_bpe.sh
+```
+
+The `token_and_bpe.sh` script can be modified to read from any path. 
+
+Lastly, we preprocess with fairseq to make data compatible with the software.
+
+```bash
+sh fairseq_format.sh
+```
+
+It will dump the data in the `data/datasets/format/` or in `data/benchmark/format`. The `faireq_format.sh` script can be modified to read from any path. 
+
 
 
 ### Model

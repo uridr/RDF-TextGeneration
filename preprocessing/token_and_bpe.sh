@@ -3,9 +3,9 @@ tgt=lex
 
 TEXT=../data/datasets/preprocessed
 
-train=$TEXT/train/format/LEX_LOW_CAMEL_SYNTHETIC_BPE/language
-valid=$TEXT/dev/format/LEX_LOW_CAMEL_SYNTHETIC_BPE/language
-test=$TEXT/test/format/LEX_LOW_CAMEL_SYNTHETIC_BPE/language
+train=$TEXT/train/train-webnlg-all-delex
+valid=$TEXT/dev/dev-webnlg-all-delex
+test=$TEXT/test/test-webnlg-all-delex
 
 # set MOSESDECODER variable to mosesdecoder folder
 TOKENIZER=$MOSESDECODER/scripts/tokenizer/tokenizer.perl
@@ -30,7 +30,7 @@ python3 $BPEROOT/learn_bpe.py -s $BPE_TOKENS < $train.$src-$tgt > $BPE_CODE
 for L in $src $tgt; do
     for f in $train.tok.$L $valid.tok.$L $test.tok.$L; do
         echo "apply_bpe.py to ${f}..."
-        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe_1000
+        python3 $BPEROOT/apply_bpe.py -c $BPE_CODE < $f > $f.bpe
     done
 done
 
