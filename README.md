@@ -45,7 +45,7 @@ In this directory, we also included data related to train-valid loss , `data/los
 Monolingual data can be obtained by means of (JOSE ADRIAN SCRIPT) . Alternatively, the targeted approach mentioned in the work, which improves results in comparison with previous monolingual, can be generated from `data/monolingual/`:
 
 ```bash
-pyhton3 scrapper.py > [OUTPUT TEXT-1]
+pyhton3 scrapper.py > [OUTPUT_TEXT-1]
 ```
 
 This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/) embeddings, pickle format, in `data/vocab`.
@@ -53,8 +53,8 @@ This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.i
 In order to clean the Wikipedia text and fix instance lenght, two scripts must be executed.
 
 ```bash
-python3 preprocessing_wiki.py [OUTPUT TEXT-1] > [OUTPUT TEXT-2]
-python3 filter.py [OUTPUT TEXT-2] > [OUTPUT CLEAN TEXT-3]
+python3 preprocessing_wiki.py [OUTPUT_TEXT-1] > [OUTPUT_TEXT-2]
+python3 filter.py [OUTPUT_TEXT-2] > [OUTPUT_CLEAN_TEXT-3]
 ```
 
 
@@ -70,13 +70,13 @@ In order to parse the monolingual text, we have to execute a java-process in bac
 ```bas
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000
  
-python3 RDF_Triple.py [OUTPUT CLEAN TEXT-3] > [OUTPUT RDF-4]
+python3 RDF_Triple.py [OUTPUT_CLEAN_TEXT-3] > [OUTPUT_RDF-4]
 ```
 
 Finally, we can clean this output, removing empty RDF, and aligned it with the monolingual data.
 
 ```bash
-python3 corpus_alignment.py [OUTPUT RDF-4] [OUTPUT CLEAN TEXT-3] 
+python3 corpus_alignment.py [OUTPUT_RDF-4] [OUTPUT_CLEAN TEXT-3] 
 ```
 
 This will generate two files `rdf_aligned.txt` and `text_aligned.txt` corresponding to the output of the Back Translation model.
@@ -164,8 +164,8 @@ sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAM
 Once the model is trained, we can predict using fairseq software. If needed, the output will be delexicalised, this is automatically infered. The software randomly predict the instances, hence, we have to process the output format before delexicalising predictions. Fairseq predictions directly remove the BPE and Moses tokenization. It can be done as follows from the `./postprocessing` directory.
 
 ```bash
-sh predict.sh [MODEL CHECKPOINTS] [DATA] [OUTPUT FILE]
-sh relexicalise.sh [FILE NAME] [FILE PATH]
+sh predict.sh [MODEL_CHECKPOINTS] [DATA] [OUTPUT_FILE]
+sh relexicalise.sh [FILE_NAME] [FILE_PATH]
 ```
 
 This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, which has to be provided in `[FILE PATH]` and `[OUTPUT FILE]` in `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
