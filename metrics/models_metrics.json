@@ -337,5 +337,35 @@
             "METEOR": 0.35,
             "TER": 0.52
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v27",
+        "metrics": {
+            "BLEU": 31.62,
+            "BLEU NLTK": 0.32,
+            "METEOR": 0.3,
+            "chrF++": 0.54,
+            "TER": 0.61
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v28",
+        "metrics": {
+            "BLEU": 38.26,
+            "BLEU NLTK": 0.38,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.51
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v29",
+        "metrics": {
+            "BLEU": 41.61,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.65,
+            "TER": 0.45
+        }
     }
 ]
