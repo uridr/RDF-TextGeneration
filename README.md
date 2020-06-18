@@ -146,7 +146,7 @@ sh predict.sh [MODEL CHECKPOINTS] [DATA] [OUTPUT FILE]
 sh relexicalise.sh [FILE NAME] [FILE PATH]
 ```
 
-This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, this has to be provided as `[FILE PATH]` and `[OUTPUT FILE]` as `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
+This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, which has to be provided in `[FILE PATH]` and `[OUTPUT FILE]` in `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
 
 
 
