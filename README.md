@@ -76,7 +76,7 @@ python3 RDF_Triple.py [OUTPUT_CLEAN_TEXT-3] > [OUTPUT_RDF-4]
 Finally, we can clean this output, removing empty RDF, and aligned it with the monolingual data.
 
 ```bash
-python3 corpus_alignment.py [OUTPUT_RDF-4] [OUTPUT_CLEAN TEXT-3] 
+python3 corpus_alignment.py [OUTPUT_RDF-4] [OUTPUT_CLEAN_TEXT-3] 
 ```
 
 This will generate two files `rdf_aligned.txt` and `text_aligned.txt` corresponding to the output of the Back Translation model.
@@ -168,7 +168,7 @@ sh predict.sh [MODEL_CHECKPOINTS] [DATA] [OUTPUT_FILE]
 sh relexicalise.sh [FILE_NAME] [FILE_PATH]
 ```
 
-This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, which has to be provided in `[FILE PATH]` and `[OUTPUT FILE]` in `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
+This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, which has to be provided in `[FILE_PATH]` and `[OUTPUT FILE]` in `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
 
 
 
