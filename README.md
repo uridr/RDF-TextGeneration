@@ -45,7 +45,7 @@ In this directory, we also included data related to train-valid loss , `data/los
 Monolingual data can be obtained by means of (JOSE ADRIAN SCRIPT) . Alternatively, the targeted approach mentioned in the work, which improves results in comparison with previous monolingual, can be generated from `data/monolingual/`:
 
 ```bash
-pyhton3 scrapper.py > monolingual.txt
+pyhton3 scrapper.py > [OUTPUT TEXT-1]
 ```
 
 This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/) embeddings, pickle format, in `data/vocab`.
@@ -53,8 +53,8 @@ This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.i
 In order to clean the Wikipedia text and fix instance lenght, two scripts must be executed.
 
 ```bash
-python3 preprocessing_wiki.py monolingual.txt > preprocessed_monolingual.txt
-python3 filter.py preprocessed_monolingual.txt > clean_monolingual.txt
+python3 preprocessing_wiki.py [OUTPUT TEXT-1] > [OUTPUT TEXT-2]
+python3 filter.py [OUTPUT TEXT-2] > [OUTPUT CLEAN TEXT-3]
 ```
 
 
@@ -70,13 +70,13 @@ In order to parse the monolingual text, we have to execute a java-process in bac
 ```bas
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000
  
-python3 RDF_Triple.py clean_monolingual.txt > rdf_synthetic.txt
+python3 RDF_Triple.py [OUTPUT CLEAN TEXT-3] > [OUTPUT RDF-4]
 ```
 
 Finally, we can clean this output, removing empty RDF, and aligned it with the monolingual data.
 
 ```bash
-python3 rdf_synthetic clean_monolingual 
+python3 [OUTPUT RDF-4] [OUTPUT CLEAN TEXT-3] 
 ```
 
 This will generate two files `rdf_aligned.txt` and `text_aligned.txt` corresponding to the output of the Back Translation model.
@@ -87,7 +87,7 @@ This will generate two files `rdf_aligned.txt` and `text_aligned.txt` correspond
 
 We show how to preprocess from the original data in `.xml` format to fairseq format. Notice that some preprocessing steps can be skipped, as in some experiments, but we show how to do the entire preprocessing pipeline described in our work.
 
-Turning the `.xml` files into  source and target plain text splitted acording to default train, dev, test separation. Being in the `preprocessing` directory, follow these commands.
+Turning the `.xml` files into  source and target plain text splitted acording to default train, dev, test separation. It also outputs a lexicalised and delexicalised verision. Being in the `./preprocessing` directory, follow these commands.
 
 ```bash
 sh xml_to_text.sh
@@ -97,7 +97,7 @@ Then, we apply Byte Pair Encoding and Moses tokenization.
 
 ```sh 
 export MOSESDECODER=../mosesdecoder/  #Provide the directory of the cloned repository
-export BPE=../subword-nmt/						#Provide the directory of the cloned repository
+export BPE=../subword-nmt/			#Provide the directory of the cloned repository
 sh token_and_bpe.sh
 ```
 
@@ -109,7 +109,7 @@ Lastly, we preprocess with fairseq to make data compatible with the software.
 sh fairseq_format.sh
 ```
 
-It will dump the data in the `data/datasets/format/` or in `data/benchmark/format`. The `faireq_format.sh` script can be modified to read from any path. 
+It will dump the data in the `data/datasets/format/` or in `data/benchmark/format/`. The `faireq_format.sh` script can be modified to read from any path. 
 
 
 
@@ -138,6 +138,15 @@ We provide several examples to reproduce the best results obtained in the work, 
 
 
 ### Postprocessing
+
+Once the model is trained, we can predict using fairseq software. If needed, the output will be delexicalised, this is automatically infered. The software randomly predict the instances, hence, we have to process the output format before delexicalising predictions. Fairseq predictions directly remove the BPE and Moses tokenization. It can be done as follows from the `./postprocessing` directory.
+
+```bash
+sh predict.sh [MODEL CHECKPOINTS] [DATA] [OUTPUT FILE]
+sh relexicalise.sh [FILE NAME] [FILE PATH]
+```
+
+This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, this has to be provided as `[FILE PATH]` and `[OUTPUT FILE]` as `[FILE NAME]`,  with the predicted output, the aligned w.r.t. source and postprocess.
 
 
 
