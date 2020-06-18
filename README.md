@@ -76,7 +76,7 @@ python3 RDF_Triple.py [OUTPUT CLEAN TEXT-3] > [OUTPUT RDF-4]
 Finally, we can clean this output, removing empty RDF, and aligned it with the monolingual data.
 
 ```bash
-python3 [OUTPUT RDF-4] [OUTPUT CLEAN TEXT-3] 
+python3 corpus_alignment.py [OUTPUT RDF-4] [OUTPUT CLEAN TEXT-3] 
 ```
 
 This will generate two files `rdf_aligned.txt` and `text_aligned.txt` corresponding to the output of the Back Translation model.
@@ -151,4 +151,20 @@ This will create one folder in the `../data/predictions/[OUTPUT_FILE]`, this has
 
 
 ### Evaluation
+
+To compute performance metrics: BLEU, TER, METEOR and chrF++, we have adopted the script provided by the [WebNLG Challenge 2020](https://github.com/WebNLG/GenerationEval) placed in  `./metrics` . This requires to download METEOR in `metrics/metrics`, it is ignored to be pushed.
+
+```bash
+wget https://www.cs.cmu.edu/~alavie/METEOR/download/meteor-1.5.tar.gz
+tar -xvf meteor-1.5.tar.gz
+mv meteor-1.5 metrics
+rm meteor-1.5.tar.gz
+```
+
+One can run single evaluation or evaluate all predictions in the `data/predictions/`directory. The model's name and performance metrics are stored in  `models_metrics.json` to history tracking, plotting, etc.
+
+```sh
+sh run_eval.sh [PREDICTIONS] [TARGET]
+sh run_full_evaluation.sh
+```
 
