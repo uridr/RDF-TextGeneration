@@ -115,25 +115,47 @@ It will dump data in `data/datasets/format/` or in `data/benchmark/format/`. The
 
 ### Model
 
-We provide several examples to reproduce the best results obtained in the work, however, third parties can feel free to reproduce other experiments since experimental data is processed and available in this repository.
+In order to run the models, we provide a wrapping script `./models/run_model.sh` that accepts several parameters to adjust the training procedure. 
 
+```bash
+sh run_model.sh -a | --architecture) [ARCHITECTURE_NAME]
+                -c | --config-file) [CONFIGURATION_FILE]
+                -p | --data-path) [RELATIVE_DATA_PATH]
+                -f | --format) [DATA_FORMAT]
+                -b | --bpe) [BPE_WORDS_NUMBER]
+                -s | --emb-source) [EMBEDDINGS_SOURCE]
+                -d | --emb-dimension) [EMBEDDINGS_DIMENSION]
+```
+
+The option ```-p [RELATIVE_DATA_PATH]``` will read the data directly from the specified path. Options `-f [DATA_FORMAT]` and `-b [BPE_WORDS_NUMBER]` are optimized for server execution and the data directories should by modified according to that.
+
+
+Bellow, we provide several examples to reproduce the best results obtained in the network, however, third parties can feel free to reproduce other experiments since experimental data is processed and available in this repository.
 
 
 **Vanilla Convolutional Model** 
 
-
+```bash
+sh run_model.sh -a fconv_self_att_wp -c 2 -p '../data/datasets/format/DELEX_BPE_5_000/'
+```
 
 **Byte Pair Encoding**
 
-
+```bash
+sh run_model.sh -a fconv_self_att_wp -c 8 -p '../data/datasets/format/DELEX_BPE_5_000/'
+```
 
 **Pretrained Embedding**
 
-
+```bash
+sh run_model.sh -a transformer -c 13 -s glove -d 300 -p '../data/datasets/format/LEX_LOW_CAMEL'
+```
 
 **Back Translation**
 
-
+```bash
+sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAMEL_SYNTHETIC_BPE'
+```
 
 
 
@@ -167,4 +189,3 @@ One can run single evaluation or evaluate all predictions in the `data/predictio
 sh run_eval.sh [PREDICTIONS] [TARGET]     # Single evaluation  
 sh run_full_evaluation.sh                 # Multiple evaluation
 ```
-
