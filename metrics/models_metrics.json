@@ -218,5 +218,154 @@
             "chrF++": 0.6,
             "TER": 0.53
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_v13",
+        "metrics": {
+            "BLEU": 37.45,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.48
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_wiki_300c_v14",
+        "metrics": {
+            "BLEU": 41.69,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.65,
+            "TER": 0.45
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_glove_300_v15",
+        "metrics": {
+            "BLEU": 42.85,
+            "BLEU NLTK": 0.43,
+            "METEOR": 0.39,
+            "chrF++": 0.66,
+            "TER": 0.46
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_pre_emb_glove_100_v16",
+        "metrics": {
+            "BLEU": 36.98,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.6,
+            "TER": 0.48
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bpe_7000_v18_low",
+        "metrics": {
+            "BLEU": 37.01,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.56
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_non_bpe_v19_low",
+        "metrics": {
+            "BLEU": 37.15,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.36,
+            "chrF++": 0.61,
+            "TER": 0.55
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bpe_7000_v18_low",
+        "metrics": {
+            "BLEU": 37.01,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.56
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 6.86,
+            "BLEU NLTK": 0.07,
+            "METEOR": 0.18,
+            "chrF++": 0.29,
+            "TER": 1.04
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 6.86,
+            "BLEU NLTK": 0.07,
+            "METEOR": 0.18,
+            "chrF++": 0.29,
+            "TER": 1.04
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 23.1,
+            "BLEU NLTK": 0.23,
+            "METEOR": 0.23,
+            "chrF++": 0.44,
+            "TER": 0.76
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_benchmark_v23",
+        "metrics": {
+            "BLEU": 23.89,
+            "BLEU NLTK": 0.24,
+            "METEOR": 0.24,
+            "chrF++": 0.45,
+            "TER": 0.74
+        }
+    },
+    {
+        "model": "Desktop",
+        "metrics": {
+            "BLEU": 36.5,
+            "BLEU NLTK": 0.37,
+            "METEOR": 0.35,
+            "TER": 0.52
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v27",
+        "metrics": {
+            "BLEU": 31.62,
+            "BLEU NLTK": 0.32,
+            "METEOR": 0.3,
+            "chrF++": 0.54,
+            "TER": 0.61
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v28",
+        "metrics": {
+            "BLEU": 38.26,
+            "BLEU NLTK": 0.38,
+            "METEOR": 0.35,
+            "chrF++": 0.61,
+            "TER": 0.51
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_v29",
+        "metrics": {
+            "BLEU": 41.61,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.65,
+            "TER": 0.45
+        }
     }
 ]

@@ -20,7 +20,10 @@ def main(argv):
 		while line:
 			if line[0] == 'H':
 				line_el = line.split("\t")
-				line_num = line_el[0].split("-")[1]
+				try:
+					line_num = line_el[0].split("-")[1]
+				except:
+					print(line_el)
 				targets[int(line_num)] = line.split("\t")[2]
 
 			line = fp.readline()

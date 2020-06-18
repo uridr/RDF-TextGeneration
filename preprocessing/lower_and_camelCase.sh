@@ -1,4 +1,4 @@
-data=../data/datasets/preprocessed
+data=../data/benchmark/preprocessed
 name=-webnlg-all-notdelex
 
 for split in train test dev; do
