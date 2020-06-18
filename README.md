@@ -65,7 +65,7 @@ Synthetic data can be generated with Transformer model or parsing techniques, th
 
 Parsing method requires the installation of [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html). The parsing algorithm is taken from the author: [TPetrou](https://github.com/calosh/RDF-Triple-API), some updates and modifications have been introduced to make it compatible with our task. 
 
-In order to parse the monolingual text, we have to execute a java-process in background to initiate the parsing instance, then, we can start parsing.
+In order to parse the monolingual text, we have to execute a java-process in background to initiate the parsing instance, then, we can start parsing, everything from `data/monolingual/`.
 
 ```bas
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000
@@ -109,7 +109,7 @@ Lastly, we preprocess with fairseq to make data compatible with the software.
 sh fairseq_format.sh
 ```
 
-It will dump the data in the `data/datasets/format/` or in `data/benchmark/format/`. The `faireq_format.sh` script can be modified to read from any path. 
+It will dump data in `data/datasets/format/` or in `data/benchmark/format/`. The `faireq_format.sh` script can be modified to read from any path. 
 
 
 
@@ -164,7 +164,7 @@ rm meteor-1.5.tar.gz
 One can run single evaluation or evaluate all predictions in the `data/predictions/`directory. The model's name and performance metrics are stored in  `models_metrics.json` to history tracking, plotting, etc.
 
 ```sh
-sh run_eval.sh [PREDICTIONS] [TARGET]
-sh run_full_evaluation.sh
+sh run_eval.sh [PREDICTIONS] [TARGET]     # Single evaluation  
+sh run_full_evaluation.sh                 # Multiple evaluation
 ```
 
