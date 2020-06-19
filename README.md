@@ -33,7 +33,7 @@ The `./data` directory holds different type of data:
 
 + Original data taken from [WebNLG corpus](https://gitlab.com/shimorina/webnlg-dataset): `data/datasets/original` `data/benchmark/original`
 + Preprocessed data: `data/datasets/preprocessed` `data/benchmark/original`
-+ Fairseq data format: `data/datasets/format ` `data/benchmark/original`
++ Fairseq data format: `data/datasets/format ` `data/benchmark/format`
 + Monolingual data and its predicted RDF triples: `data/monolingual/data` 
 
 In this directory, we also included data related to train-valid loss , `data/loss`, and predictions, `data/predictions`, to allow analysis. The `data/vocab` is a folder for pretrained embeddings, evertyhing included here will be ignored.
@@ -61,7 +61,7 @@ python3 filter.py [OUTPUT_TEXT-2] > [OUTPUT_CLEAN_TEXT-3]
 
 ### Synthetic Data
 
-Synthetic data can be generated with Transformer model or parsing techniques, the later showed better results and will be detailed below. How to execute Transformer architecture with another data will be presented later on, only change data directory if synthetic data wants to be generated from th Transformer.
+Synthetic data can be generated with Transformer model or parsing techniques, the later showed better results and will be detailed below. How to execute Transformer architecture with another data will be presented later on, only change data directory if synthetic data wants to be generated from the Transformer.
 
 Parsing method requires the installation of [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html). The parsing algorithm is taken from the author: [TPetrou](https://github.com/calosh/RDF-Triple-API), some updates and modifications have been introduced to make it compatible with our task. 
 
