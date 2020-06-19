@@ -42,7 +42,7 @@ In this directory, we also included data related to train-valid loss , `data/los
 
 ### Monolingual Data
 
-Monolingual data can be obtained by means of (JOSE ADRIAN SCRIPT) . Alternatively, the targeted approach mentioned in the work, which improves results in comparison with previous monolingual, can be generated from `data/monolingual/`:
+Monolingual data can be obtained by means of [WikiExtractor](https://github.com/attardi/wikiextractor ). Alternatively, the targeted approach mentioned in the work, which improves results in comparison with previous monolingual, can be generated from `data/monolingual/`:
 
 ```bash
 pyhton3 scrapper.py > [OUTPUT_TEXT-1]
