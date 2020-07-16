@@ -16,16 +16,16 @@ def main(argv):
 					new_line = ''
 					for sentence in paragraph.split('.')[:-1]: # for each sentence in paragraph
 						if len(new_line) > max_characters:
-							print(new_line)
+							print(new_line, file = open(sys.argv[2], 'a'))
 							new_line = ''
 							new_line = sentence
 						else:
 							new_line += sentence + '.'
 					if len(new_line) > min_characters:
-						print(new_line[:-1])
+						print(new_line[:-1], file = open(sys.argv[2], 'a'))
 					new_line = ''
 				else:
-					print(paragraph[:-1])
+					print(paragraph[:-1], file = open(sys.argv[2], 'a'))
 			paragraph = fp.readline()
 
 if __name__ == '__main__':

@@ -53,8 +53,8 @@ This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.i
 In order to clean the Wikipedia text and fix instance lenght, two scripts must be executed.
 
 ```bash
-python3 preprocessing_wiki.py [OUTPUT_TEXT-1] > [OUTPUT_TEXT-2]
-python3 filter.py [OUTPUT_TEXT-2] > [OUTPUT_CLEAN_TEXT-3]
+python3 preprocessing_wiki.py [OUTPUT_TEXT-1] [OUTPUT_TEXT-2]
+python3 filter.py [OUTPUT_TEXT-2] [OUTPUT_CLEAN_TEXT-3]
 ```
 
 
