@@ -61,10 +61,10 @@ def alignCorpus(rdf, text):
 	i = 0
 
 	for key in rdf.keys():
-		triple = rdf[key][:-1] 			# remove: \n 
+		triple = rdf[key][1:-1] 			# remove: \n 
 		sentence = text[key]
 		els = triple.split("  ")
-		if len(els) == 3:
+		if len(els) >= 3:
 			prev_triple   += triple + ' '
 			prev_sentence += sentence + ' '
 			if len(prev_sentence) > MIN_CHRS:
