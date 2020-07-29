@@ -7,7 +7,7 @@ import getopt
 from collections import defaultdict
 from benchmark_reader import Benchmark
 
-BENCHMARK_TEST = True # Global Variable MODIFY IT!
+BENCHMARK_TEST = False # Global Variable MODIFY IT!
 
 def select_files(topdir, category='', size=(1, 8)):
 	"""
@@ -40,7 +40,7 @@ def relexicalise(predfile, rplc_list, path_pre, part):
 	"""
 	relex_predictions = []
 	print(len(rplc_list))
-	with open('../data/predictions/transformer_iwslt_de_en_tunning_benchmark_v23/delex_transformer_iwslt_de_en_tunning_benchmark_v23.txt', 'r') as f:
+	with open(predfile, 'r') as f:
 		predictions = [line for line in f]
 
 	print(len(predictions))
@@ -157,12 +157,12 @@ def input_files(path_org, path_pre, filepath, part):
 
 def main(argv):
 	
-	path_org = '../data/benchmark/original/'
-	path_pre = '../data/benchmark/preprocessed/'
+	path_org = '../data/dataset/original/'
+	path_pre = '../data/dataset/preprocessed/'
 	
 	part = argv[0]
 	filepath = argv[1]
-	
+
 	input_files(path_org, path_pre, filepath, part)	
 
 

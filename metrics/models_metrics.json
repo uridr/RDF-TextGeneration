@@ -367,5 +367,15 @@
             "chrF++": 0.65,
             "TER": 0.45
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en:transformer_iwslt_de_en_bt_tagged_v0",
+        "metrics": {
+            "BLEU": 42.97,
+            "BLEU NLTK": 0.43,
+            "METEOR": 0.39,
+            "chrF++": 0.67,
+            "TER": 0.44
+        }
     }
 ]

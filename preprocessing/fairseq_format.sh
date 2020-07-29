@@ -1,9 +1,9 @@
 src=triple
 tgt=lex
 
-TEXT=../data/benchmark/preprocessed
+TEXT=../data/datasets/preprocessed
 
-sub_folder=format/LEX_LOW_CAMEL_SYNTHETIC_2_BPE
+sub_folder=format/LEX_LOW_CAMEL_SYNTHETIC_2_ENRICHED_BPE
 
 train=$TEXT/train
 valid=$TEXT/dev
@@ -26,4 +26,4 @@ done
 
 fairseq-preprocess --source-lang $src --target-lang $tgt \
     --trainpref $TEXT/train/$sub_folder/language --validpref $TEXT/dev/$sub_folder/language --testpref $TEXT/test/$sub_folder/language \
-    --destdir ../data/benchmark/$sub_folder --joined-dictionary --cpu
+    --destdir ../data/datasets/$sub_folder --joined-dictionary --cpu
