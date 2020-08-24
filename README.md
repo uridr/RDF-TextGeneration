@@ -1,6 +1,6 @@
-# Sequence-to-Sequence Modelling for RDF triples to Natural Text
+# Enhancing Sequence-to-Sequence Modelling for RDF triples to Natural Text
 
-Implementation of the Seq2Seq models proposed in the paper **Sequence-to-Sequence Modelling for RDF triples to Natural Text**  using [Fairseq](https://fairseq.readthedocs.io/en/latest/) a sequence modeling toolkit. Also, instructions to reproduce experiments are delivered.
+Implementation of the Seq2Seq models proposed in the paper **Enhancing Sequence-to-Sequence Modelling for RDF triples to Natural Text**  using [Fairseq](https://fairseq.readthedocs.io/en/latest/) a sequence modeling toolkit. Also, instructions to reproduce experiments are delivered.
 
 
 
@@ -31,8 +31,10 @@ pip install fairseq
 
 The `./data` directory holds different type of data:
 
-+ Original data taken from [WebNLG corpus](https://gitlab.com/shimorina/webnlg-dataset): `data/datasets/original` `data/benchmark/original`
-+ Preprocessed data: `data/datasets/preprocessed` `data/benchmark/original`
++ Original data taken from [WebNLG corpus](https://gitlab.com/shimorina/webnlg-dataset): 
+  + `data/datasets/original` in the paper is mentioned as `release_v2.1` version.
+  + `data/benchmark/original` in the paper is mentioned as `webnlg_challenge_2017` version.
++ Preprocessed data: `data/datasets/preprocessed` `data/benchmark/preprocessed`
 + Fairseq data format: `data/datasets/format ` `data/benchmark/format`
 + Monolingual data and its predicted RDF triples: `data/monolingual/data` 
 
@@ -45,10 +47,10 @@ In this directory, we also included data related to train-valid loss , `data/los
 Monolingual data can be obtained by means of [WikiExtractor](https://github.com/attardi/wikiextractor ). Alternatively, the targeted approach mentioned in the work, which improves results in comparison with previous monolingual, can be generated from `data/monolingual/`:
 
 ```bash
-pyhton3 scrapper.py > [OUTPUT_TEXT-1]
+pyhton3 scrapper.py [DATASET] > [OUTPUT_TEXT-1]
 ```
 
-This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/) embeddings, pickle format, in `data/vocab`.
+If `data/datasets/original` is going to be used as real data in BT, then , `[DATASET]` argument must be `release_v2.1`, and if `data/datasets/benchmark` is going to be used, then,  provide `webnlg` as argument. This script requires to place the [Wikipedia2Vec](https://wikipedia2vec.github.io/wikipedia2vec/) embeddings, pickle format, in `data/vocab`.
 
 In order to clean the Wikipedia text and fix instance lenght, two scripts must be executed.
 
@@ -73,13 +75,23 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload toke
 python3 RDF_Triple.py [OUTPUT_CLEAN_TEXT-3] > [OUTPUT_RDF-4]
 ```
 
-Finally, we can clean this output, removing empty RDF, and aligned it with the monolingual data.
+Finally, we can clean this output removing empty RDF and aligning the remaining ones with the monolingual data.
 
 ```bash
 python3 corpus_alignment.py [OUTPUT_RDF-4] [OUTPUT_CLEAN_TEXT-3] 
 ```
 
 This will generate two files `rdf_aligned.txt` and `text_aligned.txt` corresponding to the output of the Back Translation model.
+
+If Tagged Back Translation wants to be reproduced, follow the same steps, however, during preprocessing and before making compatible with Fairseq software, explained below, do the following from `./preprocessing/`:
+
+```bash
+python3 tagged_bt -f | --file ) [INPUT_PATH] 
+								  -l | --line ) [LINE_TAGGING]
+                  -o | --overwrite ) [OVERWRITE]
+```
+
+The option `-f [INPUT_PATH]` is for the generated corpus path, and `-l [LINE_TAGGING]` allow user to specify from which line should taggs be added. Then, `-o [OVERWRITE]` is a boolean value whether overwrite the generated file or not.
 
 
 
@@ -101,7 +113,15 @@ export BPE=../subword-nmt/			#Provide the directory of the cloned repository
 sh token_and_bpe.sh
 ```
 
-The `token_and_bpe.sh` script can be modified to read from any path. 
+The `token_and_bpe.sh` script can be modified to read and write from-to any path. 
+
+In some experiments, where the entire pipeline is not followed, one needs to remove camelCase style and lowercase all words. This can be done as follows:
+
+```bash
+sh lower_and_camelCase.sh 
+```
+
+The `lower_and_camelCase.sh` script can be modified to read and write from-to any path.  
 
 Lastly, we preprocess with fairseq to make data compatible with the software.
 

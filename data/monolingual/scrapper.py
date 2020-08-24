@@ -1,11 +1,13 @@
+import sys
 import json
 import time
 import requests
 import closest_entities           
 from bs4 import BeautifulSoup
 
-filter_link = 'https://en.wikipedia.org/wiki/'
+filter_link = "https://en.wikipedia.org/wiki/"
 JSON_PATH = "../../preprocessing/delex_dict.json"
+TEXT_PATH = "../../preprocessing/webnlg_entities.txt"
 
 
 def readJSON():
@@ -13,6 +15,18 @@ def readJSON():
 		data = json.load(json_file)
 
 	return data
+
+
+def readText():
+	data = {}
+	key  = 0
+	with open(TEXT_PATH) as text_file:
+		line = text_file.readline()
+		while line:
+			data[key] = line.split("\n")[0]	
+			line = text_file.readline()
+			key += 1
+	return data 
 
 
 def getWkDataIntro(soup):
@@ -55,16 +69,27 @@ if __name__ == '__main__':
 	print('Loading Embeddings...')
 	closest_entities.load_embeddings()
 	print('Exploring...')
-	data = readJSON()
-	global_entities = []
-	for key in data:
-		entities = []
-		for entity in data[key]:
-			word = ' '.join(entity.split('_'))
-			if not word in global_entities: 
-				entities.append(word)
-				global_entities.append(word)
-		explore(entities)
+
+	if sys.argv[1] == 'release_v2.1':   
+		data = readJSON()
+		global_entities = []
+		for key in data:
+			entities = []
+			for entity in data[key]:
+				word = ' '.join(entity.split('_'))
+				if not word in global_entities: 
+					entities.append(word)
+					global_entities.append(word)
+			explore(entities)
+
+	elif sys.argv[1] == 'webnlg': 
+		data = readText()
+		for key in data:
+			explore([data[key]])
+
+	else:
+		print('Invalid Input Type')
+
 	finish = time.time()
 	print(finish-start)
 	print(len(global_entities))

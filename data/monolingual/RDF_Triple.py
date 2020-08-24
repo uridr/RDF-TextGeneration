@@ -56,6 +56,7 @@ class RDF_Triple():
             # Now we know that t.node is defined
             if t.label() == 'NP':
                 if self.first_NP == '': 
+                    #print(t)
                     self.first_NP = t
             elif t.label() == 'VP':
                 if self.first_VP == '':
@@ -63,22 +64,29 @@ class RDF_Triple():
             for child in t:
                 self.find_NP(child)
 
-    
+    # Custom this function: if self.subject.word limits to 1 entity
     def find_subject(self, t, parent=None, grandparent=None):
-        if self.subject.word != '':
-            return
+        #print(t)
+        #if self.subject.word != '':
+        #    return
         try:
             t.label()
+            #print(t.label())
         except AttributeError:
-            pass
+            #pass
+            return
         else:
             # Now we know that t.node is defined
             if t.label()[:2] == 'NN':
-                if self.subject.word == '': 
-                    self.subject.word = t.leaves()[0]
-                    self.subject.pos = t.label()
-                    self.subject.parent = parent
-                    self.subject.grandparent = grandparent
+                #if self.subject.word == '': 
+                if len(self.subject.word) == 0:
+                     self.subject.word += t.leaves()[0]
+                else:
+                     self.subject.word += ' ' + t.leaves()[0]
+                self.subject.pos = t.label()
+                self.subject.parent = parent
+                self.subject.grandparent = grandparent
+                #print(t.leaves())
             else:
                 for child in t:
                     self.find_subject(child, parent=t, grandparent=parent)
@@ -239,10 +247,12 @@ class RDF_Triple():
                 self.parse_tree = line
                 #print(line.label())
         self.find_NP(self.parse_tree)
+        #print(self.first_NP.leaves())
         self.find_subject(self.first_NP)
         self.find_predicate(self.first_VP)
         if self.subject.word == '' and self.first_NP != '':
-            self.subject.word = self.first_NP.leaves()[0]
+            self.subject.word = self.first_NP.leaves()
+            #print(self.subject.word)
         self.predicate.word, self.predicate.depth, self.predicate.parent, self.predicate.grandparent = self.find_deepest_predicate()
         self.find_object()
         self.subject.attr, self.subject.attr_trees = self.get_attributes(self.subject.pos, self.subject.parent, self.subject.grandparent)
@@ -274,7 +284,8 @@ if __name__ == '__main__':
                 rdf = RDF_Triple(sentence)
                 rdf.main()
                 ans = rdf.answer
-                print(ans['rdf'])
-        except:
+                s,o,p = ans['rdf']
+                print(' ', s, ' ', o, ' ', p)
+        except Exception as e:
                 ans = 'None'
                 print(ans)

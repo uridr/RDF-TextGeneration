@@ -377,5 +377,195 @@
             "chrF++": 0.67,
             "TER": 0.44
         }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_3_benchmark_v9",
+        "metrics": {
+            "BLEU": 30.69,
+            "BLEU NLTK": 0.31,
+            "METEOR": 0.32,
+            "chrF++": 0.56,
+            "TER": 0.62
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_3_benchmark_v9",
+        "metrics": {
+            "BLEU": 40.14,
+            "BLEU NLTK": 0.4,
+            "METEOR": 0.38,
+            "chrF++": 0.65,
+            "TER": 0.47
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_3_benchmark_v9",
+        "metrics": {
+            "BLEU": 18.06,
+            "BLEU NLTK": 0.18,
+            "METEOR": 0.26,
+            "chrF++": 0.45,
+            "TER": 0.77
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 31.77,
+            "BLEU NLTK": 0.32,
+            "METEOR": 0.33,
+            "chrF++": 0.57,
+            "TER": 0.6
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 39.74,
+            "BLEU NLTK": 0.4,
+            "METEOR": 0.37,
+            "chrF++": 0.64,
+            "TER": 0.47
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 20.93,
+            "BLEU NLTK": 0.21,
+            "METEOR": 0.29,
+            "chrF++": 0.49,
+            "TER": 0.75
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 39.9,
+            "BLEU NLTK": 0.4,
+            "METEOR": 0.37,
+            "chrF++": 0.64,
+            "TER": 0.46
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 21.44,
+            "BLEU NLTK": 0.21,
+            "METEOR": 0.29,
+            "chrF++": 0.49,
+            "TER": 0.73
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_bt_so_v14",
+        "metrics": {
+            "BLEU": 31.96,
+            "BLEU NLTK": 0.32,
+            "METEOR": 0.33,
+            "chrF++": 0.57,
+            "TER": 0.59
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_v13",
+        "metrics": {
+            "BLEU": 4.56,
+            "BLEU NLTK": 0.05,
+            "METEOR": 0.11,
+            "chrF++": 0.26,
+            "TER": 1.06
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_v13",
+        "metrics": {
+            "BLEU": 40.45,
+            "BLEU NLTK": 0.4,
+            "METEOR": 0.38,
+            "chrF++": 0.65,
+            "TER": 0.48
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_bt_tagged_v0",
+        "metrics": {
+            "BLEU": 43.37,
+            "BLEU NLTK": 0.43,
+            "METEOR": 0.4,
+            "chrF++": 0.67,
+            "TER": 0.43
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_tunning_bt_2_v3",
+        "metrics": {
+            "BLEU": 42.24,
+            "BLEU NLTK": 0.42,
+            "METEOR": 0.39,
+            "chrF++": 0.66,
+            "TER": 0.44
+        }
+    },
+    {
+        "model": "transformer_iwslt_de_en_benchmark_v13",
+        "metrics": {
+            "BLEU": 24.33,
+            "BLEU NLTK": 0.24,
+            "METEOR": 0.25,
+            "chrF++": 0.47,
+            "TER": 0.76
+        }
+    },
+    {
+        "model": "transformer_benchmark_v51",
+        "metrics": {
+            "BLEU": 43.61,
+            "BLEU NLTK": 0.44,
+            "METEOR": 0.4,
+            "chrF++": 0.67,
+            "TER": 0.44
+        }
+    },
+    {
+        "model": "transformer_benchmark_v52",
+        "metrics": {
+            "BLEU": 44.22,
+            "BLEU NLTK": 0.44,
+            "METEOR": 0.4,
+            "chrF++": 0.67,
+            "TER": 0.43
+        }
+    },
+    {
+        "model": "Downloads",
+        "metrics": {
+            "BLEU": 0.0,
+            "BLEU NLTK": 0.01,
+            "METEOR": -1.0,
+            "chrF++": 0.14,
+            "TER": 1.17
+        }
+    },
+    {
+        "model": "e2e",
+        "metrics": {
+            "BLEU": 1.77,
+            "BLEU NLTK": 0.02,
+            "METEOR": 0.05,
+            "chrF++": 0.16,
+            "TER": 1.16
+        }
+    },
+    {
+        "model": "e2e",
+        "metrics": {
+            "BLEU": 1.77,
+            "BLEU NLTK": 0.02,
+            "METEOR": 0.05,
+            "chrF++": 0.16,
+            "TER": 1.16
+        }
     }
 ]

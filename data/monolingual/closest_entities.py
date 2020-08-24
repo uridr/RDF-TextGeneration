@@ -1,7 +1,8 @@
 import numpy as np
 from wikipedia2vec import Wikipedia2Vec
 
-EMBEDDING_PATH = "../vocab/enwiki_20180420_100d.pkl"
+#EMBEDDING_PATH = "../vocab/enwiki_20180420_100d.pkl"
+EMBEDDING_PATH = "../../../../../../../Desktop/Data/NLP/enwiki_20180420_100d.pkl"
 wiki2vec = None
 
 def load_embeddings():
