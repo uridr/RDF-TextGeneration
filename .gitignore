@@ -6,3 +6,4 @@ mosesdecoder/
 subword-nmt/
 metrics/metrics/meteor-1.5
 data/vocab/*
+doc/
