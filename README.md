@@ -107,6 +107,14 @@ Turning the `.xml` files into  source and target plain text splitted acording to
 sh xml_to_text.sh
 ```
 
+In some experiments, where the entire pipeline is not followed, one needs to remove camelCase style and lowercase all words. This can be done as follows:
+
+```bash
+sh lower_and_camelCase.sh 
+```
+
+The `lower_and_camelCase.sh` script can be modified to read and write from-to any path.  
+
 Then, we apply Byte Pair Encoding and Moses tokenization.
 
 ```sh 
@@ -116,14 +124,6 @@ sh token_and_bpe.sh
 ```
 
 The `token_and_bpe.sh` script can be modified to read and write from-to any path. 
-
-In some experiments, where the entire pipeline is not followed, one needs to remove camelCase style and lowercase all words. This can be done as follows:
-
-```bash
-sh lower_and_camelCase.sh 
-```
-
-The `lower_and_camelCase.sh` script can be modified to read and write from-to any path.  
 
 Lastly, we preprocess with fairseq to make data compatible with the software.
 

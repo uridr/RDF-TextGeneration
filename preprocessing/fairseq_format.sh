@@ -1,15 +1,22 @@
 src=triple
 tgt=lex
 
+# set data path
 TEXT=../data/benchmark/preprocessed
 
-sub_folder=format/LEX_LOW_CAMEL_BPE_E2E
+# set data path for storage
+sub_folder=format/LEX_LOW_CAMEL_BPE
 
 train=$TEXT/train
 valid=$TEXT/dev
 test=$TEXT/test
 
+# set data type: notdelex or delex
 name=-webnlg-all-notdelex
+
+# set extension
+extension=low.camel
+
 
 mkdir $train/$sub_folder
 mkdir $valid/$sub_folder
@@ -18,9 +25,9 @@ mkdir $test/$sub_folder
 
 for file in $train $valid $test; do
 	rm $file/$sub_folder/language.$src
-    cp $file/*$name.tok.low.camel.$src.bpe $file/$sub_folder/language.$src
+    cp $file/*$name.tok.$extension.$src.bpe $file/$sub_folder/language.$src
     rm $file/$sub_folder/language.$tgt
-    cp $file/*$name.tok.low.camel.$tgt.bpe $file/$sub_folder/language.$tgt
+    cp $file/*$name.tok.$extension.$tgt.bpe $file/$sub_folder/language.$tgt
 done
 
 
