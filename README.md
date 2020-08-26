@@ -63,7 +63,7 @@ python3 filter.py [OUTPUT_TEXT-2] [OUTPUT_CLEAN_TEXT-3]
 
 ### Synthetic Data
 
-Synthetic data can be generated with Transformer model or parsing techniques, the later showed better results and will be detailed below. How to execute Transformer architecture with another data will be presented later on, only change data directory if synthetic data wants to be generated from the Transformer.
+Synthetic data can be generated with Transformer model or parsing techniques, the latter showed better results and will be detailed below. How to execute Transformer architecture with other data will be presented later on, only change data directory if synthetic data wants to be generated from the Transformer.
 
 Parsing method requires the installation of [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html) and [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml). Both can be installed in main directory, where will be ignored. If so, no modification needs to be done in the code, otherwise, adapt global variables of `data/monolingual/RDF_Triple.py` with the corresponding path of the Stanford Parser.
 
@@ -101,7 +101,7 @@ The option `-f [INPUT_PATH]` is for the generated corpus path, and `-l [LINE_TAG
 
 We show how to preprocess from the original data in `.xml` format to fairseq format. Notice that some preprocessing steps can be skipped, as in some experiments, but we show how to do the entire preprocessing pipeline described in our work.
 
-Turning the `.xml` files into  source and target plain text splitted acording to default train, dev, test separation. It also outputs a lexicalised and delexicalised verision. Being in the `./preprocessing` directory, follow these commands.
+Turning the `.xml` files into  source and target plain text, splitted acording to default train, dev, test separation. It also outputs a lexicalised and delexicalised version. Being in the `./preprocessing` directory, follow these commands.
 
 ```bash
 sh xml_to_text.sh
@@ -183,7 +183,7 @@ sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAM
 
 ### Postprocessing
 
-Once the model is trained, we can predict using fairseq software. If needed, the output will be delexicalised, this is automatically infered. The software randomly predict the instances, hence, we have to process the output format before delexicalising predictions. Fairseq predictions directly remove the BPE and Moses tokenization. It can be done as follows from the `./postprocessing` directory.
+Once the model is trained, we can predict using fairseq software. If needed, the output will be delexicalised, this is automatically inferred. The software randomly predicts the instances, hence, we have to process the output format before delexicalising predictions. Fairseq predictions directly remove the BPE and Moses tokenization. It can be done as follows from the `./postprocessing` directory.
 
 ```bash
 sh predict.sh [MODEL_CHECKPOINTS] [DATA] [OUTPUT_FILE]
