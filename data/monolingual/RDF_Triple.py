@@ -1,17 +1,11 @@
-'''
-Created on Mar 19, 2015
-@author: TPetrou
-'''
-
 from nltk.parse import stanford
 from nltk.parse import CoreNLPParser
 import os, sys
 import operator
-# java_path = r"C:\Program Files\Java\jdk1.8.0_31\bin\java.exe"
-# os.environ['JAVAHOME'] = java_path
-os.environ['STANFORD_PARSER'] = r'/veu4/usuaris26/smadexAB/POE/RDF-Text/parsing/stanford-parser-full-2015-01-30'
-os.environ['STANFORD_MODELS'] = r'/veu4/usuaris26/smadexAB/POE/RDF-Text/parsing/stanford-parser-full-2015-01-30'
 
+# GLOBAL VARIABLES
+os.environ['STANFORD_PARSER'] = r'../../stanford-parser-full-2015-01-30'
+os.environ['STANFORD_MODELS'] = r'../../stanford-parser-full-2015-01-30'
 
 
 class RDF_Triple():
@@ -37,7 +31,6 @@ class RDF_Triple():
         
     
     def clear_data(self):
-        #self.parser = stanford.StanfordParser(model_path=r"/veu4/usuaris26/smadexAB/POE/RDF-Text/parsing/stanford-parser-full-2015-01-30/stanford-parser-3.5.1-models/edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz")
         self.parser = CoreNLPParser(url='http://localhost:9000')
         self.first_NP = ''
         self.first_VP = ''
@@ -66,19 +59,13 @@ class RDF_Triple():
 
     # Custom this function: if self.subject.word limits to 1 entity
     def find_subject(self, t, parent=None, grandparent=None):
-        #print(t)
-        #if self.subject.word != '':
-        #    return
         try:
             t.label()
-            #print(t.label())
         except AttributeError:
-            #pass
             return
         else:
             # Now we know that t.node is defined
             if t.label()[:2] == 'NN':
-                #if self.subject.word == '': 
                 if len(self.subject.word) == 0:
                      self.subject.word += t.leaves()[0]
                 else:
@@ -86,7 +73,6 @@ class RDF_Triple():
                 self.subject.pos = t.label()
                 self.subject.parent = parent
                 self.subject.grandparent = grandparent
-                #print(t.leaves())
             else:
                 for child in t:
                     self.find_subject(child, parent=t, grandparent=parent)
@@ -115,13 +101,10 @@ class RDF_Triple():
         try:
             t.label()
         except AttributeError:
-#             print t
-#             print 'error', t
             pass
         else:
             # Now we know that t.node is defined
             if t.height() == 2:
-#                 self.word_pos_holder.append((t.label(), t.leaves()[0]))
                 words.append((t.leaves()[0], t.label()))
             for child in t:
                 self.extract_word_and_pos(child, depth+1, words)
@@ -134,11 +117,10 @@ class RDF_Triple():
             t.label()
         except AttributeError:
             print(t)
-#             print 'error', t
             pass
         else:
             # Now we know that t.node is defined
-            print('(')#, t.label(), t.leaves()[0]
+            print('(')
             for child in t:
                 self.print_tree(child, depth+1)
             print(') ')
@@ -242,17 +224,13 @@ class RDF_Triple():
     def main(self):
         self.clear_data()
         self.parse_tree = self.parser.raw_parse(self.sentence)
-        #print([sentence.draw() for sentence in line for line in self.parse_tree])
         for line in self.parse_tree:
                 self.parse_tree = line
-                #print(line.label())
         self.find_NP(self.parse_tree)
-        #print(self.first_NP.leaves())
         self.find_subject(self.first_NP)
         self.find_predicate(self.first_VP)
         if self.subject.word == '' and self.first_NP != '':
             self.subject.word = self.first_NP.leaves()
-            #print(self.subject.word)
         self.predicate.word, self.predicate.depth, self.predicate.parent, self.predicate.grandparent = self.find_deepest_predicate()
         self.find_object()
         self.subject.attr, self.subject.attr_trees = self.get_attributes(self.subject.pos, self.subject.parent, self.subject.grandparent)

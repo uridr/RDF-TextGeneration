@@ -65,9 +65,11 @@ python3 filter.py [OUTPUT_TEXT-2] [OUTPUT_CLEAN_TEXT-3]
 
 Synthetic data can be generated with Transformer model or parsing techniques, the later showed better results and will be detailed below. How to execute Transformer architecture with another data will be presented later on, only change data directory if synthetic data wants to be generated from the Transformer.
 
-Parsing method requires the installation of [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html). The parsing algorithm is taken from the author: [TPetrou](https://github.com/calosh/RDF-Triple-API), some updates and modifications have been introduced to make it compatible with our task. 
+Parsing method requires the installation of [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/download.html) and [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml). Both can be installed in main directory, where will be ignored. If so, no modification needs to be done in the code, otherwise, adapt global variables of `data/monolingual/RDF_Triple.py` with the corresponding path of the Stanford Parser.
 
-In order to parse the monolingual text, we have to execute a java-process in background to initiate the parsing instance, then, we can start parsing, everything from `data/monolingual/`.
+The parsing algorithm is taken from the author: [TPetrou](https://github.com/calosh/RDF-Triple-API), some updates and modifications have been introduced to improve it and make it compatible with our task. 
+
+In order to parse the monolingual text, we have to execute a java-process in background to initiate the parsing instance, then, we can start parsing, everything from `data/monolingual/`. Notice that the java process must be executed inside the Stanford CoreNLP folder.
 
 ```bas
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos,lemma,ner,parse,depparse -status_port 9000 -port 9000 -timeout 15000
@@ -86,8 +88,8 @@ This will generate two files `rdf_aligned.txt` and `text_aligned.txt` correspond
 If Tagged Back Translation wants to be reproduced, follow the same steps, however, during preprocessing and before making compatible with Fairseq software, explained below, do the following from `./preprocessing/`:
 
 ```bash
-python3 tagged_bt -f | --file ) [INPUT_PATH] 
-								  -l | --line ) [LINE_TAGGING]
+python3 tagged_bt -f | --file ) [INPUT_PATH]
+									-l | --line ) [LINE_TAGGING]
                   -o | --overwrite ) [OVERWRITE]
 ```
 
