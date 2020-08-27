@@ -89,7 +89,7 @@ If Tagged Back Translation wants to be reproduced, follow the same steps, howeve
 
 ```bash
 python3 tagged_bt -f | --file ) [INPUT_PATH]
-									-l | --line ) [LINE_TAGGING]
+		  -l | --line ) [LINE_TAGGING]
                   -o | --overwrite ) [OVERWRITE]
 ```
 
@@ -175,7 +175,7 @@ sh run_model.sh -a transformer -c 2 -s glove -d 300 -p '../data/datasets/format/
 **Back Translation**
 
 ```bash
-sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAMEL_SYNTHETIC_2_ENRICHED_BPE'
+sh run_model.sh -a transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAMEL_SYNTHETIC_2_ENRICHED_BPE'
 ```
 
 
