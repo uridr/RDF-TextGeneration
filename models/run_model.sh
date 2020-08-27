@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task 1
+#SBATCH --gres=gpu:2
+#SBATCH --cpus-per-task 2
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --mem=16G
+#SBATCH --mem=64G
 #SBATCH --job-name=fairseq
 #SBATCH --output=logs/fairseq_%j.log
 
@@ -17,15 +17,8 @@ while [[ "$#" -gt 0 ]]; do
 		# Parse the configuration file to be used
 		-c|--config-file) CONF="$2"; shift 2;;
 		-c=*|--config-file=*) CONF="${1#*=}"; shift 1;;
-		
-		# Parse format to be used
-		-f|--format) FORMAT="$2"; shift 2;;
-		-f=*|--format=*) FORMAT="${1#*=}"; shift 1;;
-		# Parse BPE number of words
-		-b|--bpe) BPE="$2"; shift 2;;
-		-b=*|--bpe=*) BPE="${1#*=}"; shift 1;;
 
-		# Add the possiblity to use direct relative path to data
+		# Define the relative path to the data to be used
 		-p|--data-path) DATAPATH="$2"; shift 2;;
 		-p=*|--data-path=*) DATAPATH="$2"; shift 1;;
 
@@ -35,6 +28,9 @@ while [[ "$#" -gt 0 ]]; do
 		# Parse embedding dimension
 		-d|--emb-dimension) DIMENSION="$2"; shift 2;;
 		-d=*|--emb-dimension=*) DIMENSION="${1#*=}"; shift 1;;
+
+		# Use optimized fp16 precision training
+		-fp16|--fp16) FP16="True"; shift 1;;
 		
 		# Handle unknown parameters
 		-*|--*|*) echo "Unknown parameter: $1"; exit 2;;
@@ -53,6 +49,13 @@ if [ ! -f "$ARCHITECTURE" ]; then
 	exit 2
 fi
 
+# Whether to use optimized training or not
+if [ ! -z "$FP16" ]; then
+	FP16="$FP16"
+else
+	FP16="False"
+fi
+
 # Determine config file
 CONFIG=config_files/$ARCH/$CONF.config
 if [ ! -f "$CONFIG" ]; then
@@ -65,19 +68,9 @@ fi
 # Determine data to be used
 if [ ! -z "$DATAPATH" ]; then
 	FORMAT="$DATAPATH"
-elif [ "$FORMAT" == "delex" ]; then
-	FORMAT="../format/$FORMAT"
-	# Use bite-pair-encoding
-	if [ ! -z "$BPE" ]; then
-		FORMAT+="/BPE_${BPE}"
-	else
-		FORMAT+="/LOW_CAMEL"
-	fi
 else
-	FORMAT+="/LOW_CAMEL"
-	if [ "$ARCH" == "back_transformer" ]; then
-		FORMAT+="_FULL_BT_MONO"
-	fi
+	echo "Datapath must be specified!"
+	exit 2
 fi
 # Check if data path exists
 if [ ! -d "$FORMAT" ]; then
@@ -86,7 +79,7 @@ if [ ! -d "$FORMAT" ]; then
 fi
 
 # Determine checkpoints directory
-CHECKPOINTS=checkpoints/$ARCH
+CHECKPOINTS=checkpoints/$ARCH/new
 # Create it if it does not exist
 if [ ! -d "$CHECKPOINTS" ]; then
 	mkdir $CHECKPOINTS
@@ -96,6 +89,8 @@ fi
 echo "Training model: $ARCHITECTURE"
 echo "Configuration file: $CONFIG"
 echo "Data: $FORMAT"
+echo "Saving checkpoints at: $CHECKPOINTS"
+echo "Using optimized fp16 training: $FP16"
 
 # Train with pretrained embeddings
 if [ ! -z "$SOURCE" ]; then
@@ -111,8 +106,8 @@ if [ ! -z "$SOURCE" ]; then
 		exit 2
 	fi
 	echo "Pretrained embeddings: $EMB"
-	sh $ARCHITECTURE -c $CONFIG -f $FORMAT -e $EMB -d $DIMENSION
+	sh $ARCHITECTURE -c $CONFIG -f $FORMAT -e $EMB -d $DIMENSION --checkpoints $CHECKPOINTS --fp16 $FP16
 # Train without pretrained embeddings
 else
-	sh $ARCHITECTURE -c $CONFIG -f $FORMAT
+	sh $ARCHITECTURE -c $CONFIG -f $FORMAT --checkpoints $CHECKPOINTS --fp16 $FP16
 fi
