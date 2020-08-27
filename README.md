@@ -163,19 +163,19 @@ sh run_model.sh -a fconv_self_att_wp -c 2 -p '../data/datasets/format/DELEX_BPE_
 **Byte Pair Encoding**
 
 ```bash
-sh run_model.sh -a fconv_self_att_wp -c 8 -p '../data/datasets/format/DELEX_BPE_5_000/'
+sh run_model.sh -a transformer -c 1 -p '../data/datasets/format/DELEX_BPE_5_000/'
 ```
 
 **Pretrained Embeddings**
 
 ```bash
-sh run_model.sh -a transformer -c 13 -s glove -d 300 -p '../data/datasets/format/LEX_LOW_CAMEL'
+sh run_model.sh -a transformer -c 2 -s glove -d 300 -p '../data/datasets/format/LEX_LOW_CAMEL_BPE'
 ```
 
 **Back Translation**
 
 ```bash
-sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAMEL_SYNTHETIC_BPE'
+sh run_model.sh -a back_transformer -c 3 -p '../data/datasets/format/LEX_LOW_CAMEL_SYNTHETIC_2_ENRICHED_BPE'
 ```
 
 
