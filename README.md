@@ -143,13 +143,12 @@ In order to run the models, we provide a wrapping script `./models/run_model.sh`
 sh run_model.sh -a | --architecture) [ARCHITECTURE_NAME]
                 -c | --config-file) [CONFIGURATION_FILE]
                 -p | --data-path) [RELATIVE_DATA_PATH]
-                -f | --format) [DATA_FORMAT]
-                -b | --bpe) [BPE_WORDS_NUMBER]
                 -s | --emb-source) [EMBEDDINGS_SOURCE]
                 -d | --emb-dimension) [EMBEDDINGS_DIMENSION]
+		-fp16 | --fp16) [MIXED PRECISION TRAINING]
 ```
 
-The option ```-p [RELATIVE_DATA_PATH]``` will read the data directly from the specified path. Options `-f [DATA_FORMAT]` and `-b [BPE_WORDS_NUMBER]` are optimized for server execution and the data directories should by modified according to that.
+All of the provided options are keyword arguments, except for ```-fp16``` which is a flag that it indicates wheter or not `float16` mixed precision training should be used.
 
 
 Bellow, we provide several examples to reproduce the best results obtained in the network, however, third parties can feel free to reproduce other experiments since experimental data is processed and available in this repository.
@@ -167,7 +166,7 @@ sh run_model.sh -a fconv_self_att_wp -c 2 -p '../data/datasets/format/DELEX_BPE_
 sh run_model.sh -a fconv_self_att_wp -c 8 -p '../data/datasets/format/DELEX_BPE_5_000/'
 ```
 
-**Pretrained Embedding**
+**Pretrained Embeddings**
 
 ```bash
 sh run_model.sh -a transformer -c 13 -s glove -d 300 -p '../data/datasets/format/LEX_LOW_CAMEL'
