@@ -1,6 +1,6 @@
 # Enhancing Sequence-to-Sequence Modelling for RDF triples to Natural Text
 
-Implementation of the Seq2Seq models proposed in the paper **Enhancing Sequence-to-Sequence Modelling for RDF triples to Natural Text**  using [Fairseq](https://fairseq.readthedocs.io/en/latest/) a sequence modeling toolkit. Also, instructions to reproduce experiments are delivered.
+Implementation of the Seq2Seq models proposed in the paper **[Enhancing Sequence-to-Sequence Modelling for RDF triples to Natural Text](https://webnlg-challenge.loria.fr/files/2020.webnlg-papers.5.pdf)**  using [Fairseq](https://fairseq.readthedocs.io/en/latest/) a sequence modeling toolkit. Also, instructions to reproduce experiments are delivered.
 
 
 
@@ -209,4 +209,19 @@ One can run single evaluation or evaluate all predictions in the `data/predictio
 ```sh
 sh run_eval.sh [PREDICTIONS] [TARGET]     # Single evaluation  
 sh run_full_evaluation.sh                 # Multiple evaluation
+```
+
+### Citation
+
+If you find our work or the code useful, please consider cite our paper using:
+
+```
+@inproceedings{domingo-etal-2020-rdf2text, 
+    title = "Enhancing Sequence-to-Sequence Modelling for {RDF} triples to Natural Text",
+    author = "Oriol Domingo and David Bergés and Roser Cantenys and Roger Creus and José A.R. Fonollosa",
+    booktitle = {Proceedings of the 3rd WebNLG Workshop on Natural Language Generation from the Semantic Web (WebNLG+ 2020)},
+    year = "2020",
+    address =      {Dublin, Ireland (Virtual)},
+    publisher = {"Association for Computational Linguistics"},
+}
 ```
